@@ -71,76 +71,76 @@
     <!-- header -->
    <?php include 'header.php';?>
                 
-              <!-- Slider -->
-        <div class="slider">
-            <div class="container">
-            
-                <div class="row">
-                    <div class="span12">
-                        <div class="flexslider">
-                            <ul class="slides">
-                                <li >
-                                    <img src="img/slider/banner1.jpg">
-                                    
-                                </li>
-                                <li>
-                                    <img src="img/slider/banner2.jpg">
-                                    
-                                </li>
-                                <li>
-                                    <img src="img/slider/banner3.jpg">
-                                    
-                                </li>
-                               
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>       
+       
                     
            <!-- inner part -->
            
-           <div class="container" style="margin-bottom: 30px;">
-              <div class="row">
-                 <div class="span6 welcome-vitas">
-             
-          <h2>WELCOME TO VITAS</h2><hr>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, 
-          tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta 
-          sem malesuada magna mollis euismod. Donec sed odio dui.
-          Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, 
-          tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta 
-          sem malesuada magna mollis euismod. Donec sed odio dui.
-          Donec sed odio dui.
-          Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, 
-          tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta 
-          sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                  </div>
-               
+     <div class="container" style="margin-bottom: 30px;">
+         <div class="row">
+                 
               
               <div class="span3">
              
-              <a class="ongoing" rel="group" href="img/ongoing1.png"><img src="img/on1.png" alt="" /></a>
+              <a class="fancybox" rel="" href="img/gallery/gbig.png"><img src="img/gallery/gbig.png" alt="" /></a>
               
 
               </div>    
               
                
               <div class="span3">
-              <a class="upcoming" rel="group" href="img/upcoming1.png"><img src="img/up1.png" alt="" /></a>
+              <a class="fancybox" rel="" href="img/gallery/gbig.png"><img src="img/gallery/gbig.png" alt="" /></a>
          
               
               </div> 
-              </div>       
+              <div class="span3">
+              <a class="fancybox" rel="" href="img/gallery/gbig.png"><img src="img/gallery/gbig.png" alt="" /></a>
+         
+              
+              </div> 
+              <div class="span3">
+              <a class="fancybox" rel="" href="img/gallery/gbig.png"><img src="img/gallery/gbig.png" alt="" /></a>
+         
+              
+              </div> 
+              <div class="span3">
+              <a class="fancybox" rel="" href="img/gallery/gbig.png"><img src="img/gallery/gbig.png" alt="" /></a>
+         
+              
+              </div> 
+              <div class="span3">
+              <a class="fancybox" rel="" href="img/gallery/gbig.png"><img src="img/gallery/gbig.png" alt="" /></a>
+         
+              
+              </div> 
+              <div class="span3">
+              <a class="fancybox" rel="" href="img/gallery/gbig.png"><img src="img/gallery/gbig.png" alt="" /></a>
+         
+              
+              </div> 
+              <div class="span3">
+              <a class="fancybox" rel="" href="img/gallery/gbig.png"><img src="img/gallery/gbig.png" alt="" /></a>
+         
+              
+              </div> 
+              
+              
+              
+              
+              
+            
+         </div>       
            
-           </div>
+    </div>
            
-           
+             
+       <div class="project_vitas">
+          <img alt="" src="img/ongoing.png">
+          <img alt="" src="img/upcoming.png">
+          
+          </div>   
            
     </div>       
-           
-           
+            
            
            
            
@@ -159,41 +159,7 @@
 	$(document).ready(function() {
 		$(".fancybox").fancybox();
 	});
-
-	$(".ongoing").click(function() {
-	    
-	    $.fancybox.open([
-	        {
-	            href : 'img/ongoing1.png',                
-	           
-	        }
-	        
-	       
-	    ], {
-	        padding : 0
-	    });
-	    
-	    return false;
-	    
-	});
-
-$(".upcoming").click(function() {
-	    
-	    $.fancybox.open([
-	        {
-	            href : 'img/upcoming1.png',                
-	           
-	        }
-	       
-	    ], {
-	        padding : 0
-	    });
-	    
-	    return false;
-	    
-	});
-
-
+	
 	
 </script>
        
