@@ -30,7 +30,7 @@
                                         <a href="about.php">About us</a>
                                     </li>
                                     <li>
-                                        <a href="#">Gallery</a>
+                                        <a href="gallery.php">Gallery</a>
                                     </li>
                                     <li>
                                         <a href="#">Media Center</a>
