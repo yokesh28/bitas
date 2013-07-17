@@ -18,7 +18,8 @@
     
     
     <!-- Add jQuery library -->
-<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
 
 <!-- Add mousewheel plugin (this is optional) -->
 <script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
@@ -58,8 +59,7 @@
         height: inherit !important;
     }
 </style>
-      <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script> 
+      
        
        
   </head>
@@ -154,7 +154,11 @@
         <script src="js/jquery.flexslider.js"></script>   
          <script src="js/scripts.js"></script>  
          
-            
+            <script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
        
     
   </body>
