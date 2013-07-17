@@ -164,7 +164,7 @@
 	    
 	    $.fancybox.open([
 	        {
-	            href : 'img/on1.png',                
+	            href : 'img/ongoing1.png',                
 	           
 	        }
 	        
@@ -181,7 +181,7 @@ $(".upcoming").click(function() {
 	    
 	    $.fancybox.open([
 	        {
-	            href : 'img/up1.png',                
+	            href : 'img/upcoming1.png',                
 	           
 	        }
 	       
