@@ -37,8 +37,8 @@
         <h5 style="margin-left: 23px;">Get in Touch</h5>
         <ul class="list-info">
           <li><img src="img/icons/icon-18-address.png" alt="icon">&nbsp;
-            P.O.Box 25214<br>
-            Dubai - UAE</li>
+            P.O.Box 25214  India
+           </li>
           <li><img src="img/icons/icon-18-phone.png" alt="icon">&nbsp;(209)910-3468</li>
           <li><img src="img/icons/icon-18-mail.png" alt="icon">&nbsp;<a href="info@vitas.com">info@vitas.com</a></li>
          
