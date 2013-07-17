@@ -140,9 +140,9 @@
     </div>       
      <div class="row">      
        <div class="span6 project_vitas">
-          <img alt="" src="img/ongoing.png">
-          <img alt="" src="img/upcoming.png">
-          
+        <a class="ongoing" rel="group" href="img/ongoing1.png"><img src="img/ongoing.png" alt="" /></a>
+        <a class="ongoing" rel="group" href="img/ongoing1.png"><img src="img/upcoming.png" alt="" /></a>
+                  
           </div>   
        </div>            
            
@@ -163,7 +163,38 @@
 	$(document).ready(function() {
 		$(".fancybox").fancybox();
 	});
-	
+$(".ongoing").click(function() {
+	    
+	    $.fancybox.open([
+	        {
+	            href : 'img/ongoing1.png',                
+	           
+	        }
+	        
+	       
+	    ], {
+	        padding : 0
+	    });
+	    
+	    return false;
+	    
+	});
+
+$(".upcoming").click(function() {
+	    
+	    $.fancybox.open([
+	        {
+	            href : 'img/upcoming1.png',                
+	           
+	        }
+	       
+	    ], {
+	        padding : 0
+	    });
+	    
+	    return false;
+	    
+	});
 	
 </script>
        
