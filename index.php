@@ -108,11 +108,15 @@
                         <div class="flexslider">
                             <ul class="slides">
                                 <li >
-                                    <img src="img/slider/1.jpg">
+                                    <img src="img/slider/banner1.jpg">
                                     
                                 </li>
                                 <li>
-                                    <img src="img/slider/2.jpg">
+                                    <img src="img/slider/banner2.jpg">
+                                    
+                                </li>
+                                <li>
+                                    <img src="img/slider/banner3.jpg">
                                     
                                 </li>
                                
@@ -216,14 +220,14 @@
          
         </ul>
       </div>
-      <div class="social span6">
+      <div class="social1 span6">
     
-             <h5 class="social-text">Follow us</h5>       <a class="facebook" href="#"></a>
-                        <a class="dribbble" href="#"></a>
-                        <a class="twitter" href="#"></a>
-                      
-                       
-                    </div>
+             <h5 class="social-text">Follow us</h5>     
+              <ul class="social">
+					<li><a href="#" class="mail"></a></li>
+					<li><a href="#" class="facebook"></a></li>
+					<li><a href="#" class="twitter"></a></li>
+				</ul>
       <!--column three ends--> 
       
     </div>
