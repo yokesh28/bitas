@@ -83,6 +83,9 @@ ul#nav>li:last-child {
 .welcome-vitas hr {
 	margin: 0px;
 }
+.hidden{
+	display: none;
+	}
 
 /*footer*/
 #footer {

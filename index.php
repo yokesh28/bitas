@@ -121,13 +121,14 @@
               
               <div class="span3">
              
-              <a class="fancybox" rel="group" href="img/ongoing1.png"><img src="img/on1.png" alt="" /></a>
+              <a class="ongoing" rel="group" href="img/ongoing1.png"><img src="img/on1.png" alt="" /></a>
+              
 
               </div>    
               
                
               <div class="span3">
-              <a class="fancybox" rel="group" href="img/upcoming1.png"><img src="img/up1.png" alt="" /></a>
+              <a class="upcoming" rel="group" href="img/upcoming1.png"><img src="img/up1.png" alt="" /></a>
          
               
               </div> 
@@ -158,6 +159,42 @@
 	$(document).ready(function() {
 		$(".fancybox").fancybox();
 	});
+
+	$(".ongoing").click(function() {
+	    
+	    $.fancybox.open([
+	        {
+	            href : 'img/on1.png',                
+	           
+	        }
+	        
+	       
+	    ], {
+	        padding : 0
+	    });
+	    
+	    return false;
+	    
+	});
+
+$(".upcoming").click(function() {
+	    
+	    $.fancybox.open([
+	        {
+	            href : 'img/up1.png',                
+	           
+	        }
+	       
+	    ], {
+	        padding : 0
+	    });
+	    
+	    return false;
+	    
+	});
+
+
+	
 </script>
        
     
