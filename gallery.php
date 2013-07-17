@@ -102,6 +102,10 @@
          
               
               </div> 
+          </div>
+          
+        <div class="row" style="margin-top: 20px;">
+              
               <div class="span3">
               <a class="fancybox" rel="" href="img/gallery/gbig.png"><img src="img/gallery/gbig.png" alt="" /></a>
          
@@ -122,25 +126,25 @@
          
               
               </div> 
-              
+           </div>    
               
               
               
               
             
-         </div>       
+               
            
     </div>
            
-             
-       <div class="project_vitas">
+      
+    </div>       
+     <div class="row">      
+       <div class="span6 project_vitas">
           <img alt="" src="img/ongoing.png">
           <img alt="" src="img/upcoming.png">
           
           </div>   
-           
-    </div>       
-            
+       </div>            
            
            
            
