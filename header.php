@@ -27,7 +27,7 @@
                                         <a href="#">Project</a>
                                     </li>
                                     <li>
-                                        <a href="#">About us</a>
+                                        <a href="about.php">About us</a>
                                     </li>
                                     <li>
                                         <a href="#">Gallery</a>

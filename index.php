@@ -15,6 +15,34 @@
     <link rel="stylesheet" href="css/flexslider.css">
     
     <link href="css/style.css" rel="stylesheet" media="screen">
+    
+    
+    <!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -77,7 +105,7 @@
               <div class="row">
                  <div class="span6 welcome-vitas">
              
-          <h2>Heading</h2><hr>
+          <h2>WELCOME TO VITAS</h2><hr>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, 
           tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta 
           sem malesuada magna mollis euismod. Donec sed odio dui.
@@ -92,13 +120,15 @@
                
               
               <div class="span3">
-             <img alt="" src="img/on1.png">
-              
+             
+              <a class="fancybox" rel="group" href="img/ongoing1.png"><img src="img/on1.png" alt="" /></a>
+
               </div>    
               
                
               <div class="span3">
-             <img alt="" src="img/up1.png">
+              <a class="fancybox" rel="group" href="img/upcoming1.png"><img src="img/up1.png" alt="" /></a>
+         
               
               </div> 
               </div>       
@@ -122,7 +152,9 @@
 
       
         <script src="js/jquery.flexslider.js"></script>   
-         <script src="js/scripts.js"></script>     
+         <script src="js/scripts.js"></script>  
+         
+            
        
     
   </body>
