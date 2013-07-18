@@ -269,14 +269,14 @@ margin: 0px;
 
 .project_cont {
 	position: absolute;
-top: 270px;
+top: 240px;
 left: 114px;
 
 
 }
 .project_cont1 {
 	position: absolute;
-top: 270px;
+top: 240px;
 left: 390px;
 
 
@@ -327,7 +327,11 @@ width:250px;
 margin-bottom: -7px;
 	
 }
-@media (max-width: 767px) { 
+/*media screen*/
+
+
+@media (min-width: 768px) and (max-width: 979px) { 
+	
 	
 	
 	.project_cont {
@@ -365,4 +369,52 @@ left: 0px;
 	
 	
 	
+	 } 
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) { 
+	
+	
+	.project_cont {
+	
+	position: static;
+	
+	top:0px;
+	
+	left: 0px;
+	
+	
+	}
+	
+	.project_cont1 {
+	
+	position: static;
+	
+	top:0px;
+	
+	left: 0px;
+	
+	
+	}
+	
+	
+	.about_cont {
+	
+	
+	position: static;
+top: 0px;
+left: 0px;
+
+	}
+	
+		
 	 }
+	 

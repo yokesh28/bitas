@@ -20,7 +20,7 @@
                               <a  href="index.php"><img class="brand"  alt="" src="img/logo.png"></a>
                               <div class="nav-collapse collapse">
                                 <ul id="nav" class="nav">
-                                    <li class="active">
+                                    <li class="">
                                         <a href="index.php">Home</a>
                                     </li>
                                     <li>

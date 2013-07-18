@@ -9,17 +9,21 @@
     <meta name="author" content="">
 
     <!-- Le styles -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link href="css/bootstrap.css" rel="stylesheet">        
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="css/flexslider.css">
-    
+   
     <link href="css/style.css" rel="stylesheet" media="screen">
     
     
     <!-- Add jQuery library -->
 <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script> 
+    
+    
+  
 
 <!-- Add mousewheel plugin (this is optional) -->
 <script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
@@ -111,8 +115,30 @@
       
         <script src="js/jquery.flexslider.js"></script>   
          <script src="js/scripts.js"></script>  
-         
+<script type="text/javascript">
+
+var navigation = responsiveNav("#nav", {
+    animate: true,        // Boolean: Use CSS3 transitions, true or false
+    transition: 400,      // Integer: Speed of the transition, in milliseconds
+    label: "Menu",        // String: Label for the navigation toggle
+    insert: "after",      // String: Insert the toggle before or after the navigation
+    customToggle: "",     // Selector: Specify the ID of a custom toggle
+    openPos: "relative",  // String: Position of the opened nav, relative or static
+    jsClass: "js",        // String: 'JS enabled' class which is added to <html> el
+    init: function(){},   // Function: Init callback
+    open: function(){},   // Function: Open callback
+    close: function(){}   // Function: Close callback
+  });
+
+
+
+
+
+</script>
+        
             <script type="text/javascript">
+
+          
 	$(document).ready(function() {
 		$(".fancybox").fancybox();
 	});
@@ -150,6 +176,8 @@ $(".upcomingproject").click(function() {
     return false;
     
 });
+
+
 	
 </script> 
        
