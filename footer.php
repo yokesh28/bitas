@@ -67,7 +67,7 @@
       <div class="span12">
         <ul class="copyright-header">
            <li> <a href="index.php">Home</a> </li>
-            <li>  <a href="#">Project</a>   </li>                       
+            <li>  <a href="project.php">Project</a>   </li>                       
              <li>   <a href="about.php">About us</a>   </li>                  
              <li>     <a href="gallery.php">Gallery</a>   </li>                
               <li>    <a href="#">Media Center</a>   </li>                     

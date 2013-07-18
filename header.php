@@ -24,7 +24,7 @@
                                         <a href="index.php">Home</a>
                                     </li>
                                     <li>
-                                        <a href="#">Project</a>
+                                        <a href="project.php">Project</a>
                                     </li>
                                     <li>
                                         <a href="about.php">About us</a>

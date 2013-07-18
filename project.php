@@ -73,9 +73,9 @@
              <div class="container">
             <div class="row">
                 
-                  <div class="span12 about_bg">
-                 <img alt="" src="img/about.png">
-                     <div class="about_cont">
+                  <div class="span12 project_bg">
+                 <img alt="" src="img/project.png">
+                     <div class="project_cont">
                       <h3>About Us</h3>
                       <p>
 	Based in Coimbatore, Vitas is a fully fledged real estate agency with a dedicated team who assist our clients in any way possible, whether it is selling properties, or constructing budget villas. Having started out small in 2010 by Sridevi Selvaa, with a generous amount of learning, we have come a long way! We strive to help our clients, represent their needs, wants and beliefs.
@@ -161,3 +161,4 @@ $(".upcoming").click(function() {
     
   </body>
 </html>
+
