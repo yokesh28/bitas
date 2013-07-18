@@ -268,12 +268,16 @@ margin: 0px;
 /*about*/
 
 .about_cont {
-
+	position: absolute;
+top: 270px;
+left: 114px;
+text-align: justify;
 width: 900px;
 }
 .about_cont h3{
+
 	
-	text-align: left;
+text-align: left;
 border-bottom: 1px solid #BCBCBC !important;
 }
 
@@ -284,7 +288,7 @@ border-bottom: 1px solid #BCBCBC !important;
 }
 .about_bg img {
 
-position: absolute;
+
 }
 
 /*gallery*/
