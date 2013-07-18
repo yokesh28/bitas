@@ -267,17 +267,25 @@ margin: 0px;
 
 /*about*/
 
+.about_cont {
+
+width: 900px;
+}
+.about_cont h3{
+	
+	text-align: left;
+border-bottom: 1px solid #BCBCBC !important;
+}
+
 
 .about_bg{
-	
-	background: url(../img/about.png) no-repeat;
-}
-
-.about_cont{
-	
+	position: relative;
 	
 }
+.about_bg img {
 
+position: absolute;
+}
 
 /*gallery*/
 
