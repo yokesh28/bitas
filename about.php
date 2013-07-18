@@ -74,7 +74,7 @@
             <div class="row">
                 
                   <div class="span12 about_bg">
-                 <img alt="" src="img/about.png">
+                 <img class="visible-desktop" alt="" src="img/about.png">
                      <div class="about_cont">
                       <h3>About Us</h3>
                       <p>

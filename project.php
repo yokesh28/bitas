@@ -74,12 +74,12 @@
             <div class="row">
                 
                   <div class="span12 project_bg">
-                 <img alt="" src="img/project.png">
-                     <div class="project_cont">
-                      <h3>About Us</h3>
-                      <p>
-	Based in Coimbatore, Vitas is a fully fledged real estate agency with a dedicated team who assist our clients in any way possible, whether it is selling properties, or constructing budget villas. Having started out small in 2010 by Sridevi Selvaa, with a generous amount of learning, we have come a long way! We strive to help our clients, represent their needs, wants and beliefs.
-	<br><br>So the next time you want to buy a villa or fully furnished apartment, think VITAS.</p>
+                 <img class="visible-desktop"   alt="" src="img/project.png">
+                     <div class=" span3 project_cont">
+                      <a class="ongoingproject" rel="group" href="img/ongoing1.png"><img src="img/on1.png" alt="" /></a>
+                      </div>
+                      <div class=" span3 project_cont1">
+                     <a class="upcomingproject" rel="group" href="img/upcoming1.png"><img src="img/up1.png" alt="" /></a>
                       </div>
                  </div> 
                  
@@ -98,14 +98,7 @@
            
            
                     
-     <div class="row">      
-       <div class="span6 project_vitas">
-        <a class="ongoing" rel="group" href="img/ongoing1.png"><img src="img/ongoing.png" alt="" /></a>
-        <a class="ongoing" rel="group" href="img/ongoing1.png"><img src="img/upcoming.png" alt="" /></a>
-                  
-          </div>   
-       </div>            
-           
+    
            
            
            
@@ -123,38 +116,40 @@
 	$(document).ready(function() {
 		$(".fancybox").fancybox();
 	});
-$(".ongoing").click(function() {
-	    
-	    $.fancybox.open([
-	        {
-	            href : 'img/ongoing1.png',                
-	           
-	        }
-	        
-	       
-	    ], {
-	        padding : 0
-	    });
-	    
-	    return false;
-	    
-	});
 
-$(".upcoming").click(function() {
-	    
-	    $.fancybox.open([
-	        {
-	            href : 'img/upcoming1.png',                
-	           
-	        }
-	       
-	    ], {
-	        padding : 0
-	    });
-	    
-	    return false;
-	    
-	});
+
+$(".ongoingproject").click(function() {
+    
+    $.fancybox.open([
+        {
+            href : 'img/ongoing1.png',                
+           
+        }
+        
+       
+    ], {
+        padding : 0
+    });
+    
+    return false;
+    
+});
+
+$(".upcomingproject").click(function() {
+    
+    $.fancybox.open([
+        {
+            href : 'img/upcoming1.png',                
+           
+        }
+       
+    ], {
+        padding : 0
+    });
+    
+    return false;
+    
+});
 	
 </script> 
        

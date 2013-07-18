@@ -271,14 +271,15 @@ margin: 0px;
 	position: absolute;
 top: 270px;
 left: 114px;
-text-align: justify;
-width: 800px;
-}
-.project_cont h3{
 
-	margin-left: -46px;
-text-align: left;
-border-bottom: 1px solid #BCBCBC !important;
+
+}
+.project_cont1 {
+	position: absolute;
+top: 270px;
+left: 390px;
+
+
 }
 
 
@@ -326,5 +327,42 @@ width:250px;
 margin-bottom: -7px;
 	
 }
+@media (max-width: 767px) { 
+	
+	
+	.project_cont {
+	
+	position: static;
+	
+	top:0px;
+	
+	left: 0px;
+	
+	
+	}
+	
+	.project_cont1 {
+	
+	position: static;
+	
+	top:0px;
+	
+	left: 0px;
+	
+	
+	}
+	
+	
+	.about_cont {
+	
+	
+	position: static;
+top: 0px;
+left: 0px;
 
-}
+	}
+	
+	
+	
+	
+	 }
