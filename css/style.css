@@ -1,6 +1,10 @@
 @CHARSET "UTF-8";
 
-
+html{
+	
+	margin: 0px;
+	padding: 0px;
+}
 
 
 body {
@@ -11,17 +15,27 @@ body {
 	color: #767676;
 }
 /*navigation*/
-.navbar-form img {
-	margin-top: 10px;
-	margin-bottom: 15px;
-}
+
+.navbar {
+	margin-bottom: -23px;
+	}
+
 
 .navbar-form a {
 	color: #B6B6B6;
 }
 
-.navbar-form p {
+.contact-hd
+{
+float: right;
+margin-top: 131px;
+
+}
+.contact-hd p {
 	color: #B6B6B6;
+	margin-right: 50px;
+	
+	
 }
 
 .navbar-inner {
@@ -40,7 +54,7 @@ body {
 
 ul#nav {
 	float: right;
-	margin-top: 30px;
+
 }
 
 ul#nav>li {
@@ -327,6 +341,115 @@ width:250px;
 margin-bottom: -7px;
 	
 }
+
+
+/*contact us*/
+
+
+
+#header-btm{
+margin-bottom: 40px;
+}
+
+ #header-btm h2 {
+	
+	text-align: left;
+}
+section .contact-header p{
+	
+	float: left;
+	
+}
+.contact_bg{
+	
+	background: url("../img/con-bac.png")repeat;
+	margin-bottom: 80px;
+	
+}
+
+.main-content {
+float: left;
+padding: 15px;
+}
+.sidebar {
+float: left;
+}
+
+form p {
+margin-bottom: 20px;
+padding-bottom: 0px;
+background: none;
+list-style-type: none;
+}
+
+label {
+width: 30%;
+padding-right: 1%;
+float: left;
+height: auto;
+}
+
+label, input, button, select, textarea, input[type="text"] {
+font-size: 14px;
+color: #767676;
+font-weight: 400;
+
+
+}
+
+
+input[type="text"], select, textarea {
+width: 60% !important;
+height: 30px;
+padding: 5px;
+margin: 0;
+display: inline-block;
+background: #202021;
+border-color: #484A4B;
+
+}
+input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:focus {
+border-color: #484A4B;
+-webkit-box-shadow:none;
+-moz-box-shadow: none;
+box-shadow:none;
+}
+form a{
+	
+	color: white;
+text-decoration: none;
+}
+form a:HOVER{
+	color: white;
+text-decoration: none;
+}
+
+.submit {
+background: #484a4b;
+padding: 10px 40px;
+
+font-size: 16px;
+color: black;
+line-height: 16px;
+font-weight: 600;
+text-shadow: 0px 1px 0px #000;
+cursor: pointer;
+border: none;
+width: auto;
+height: auto;
+display: inline-block;
+border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+-moz-box-shadow: 0 1px 0px 0px rgba(255, 255, 255, 0.2) inset;
+-webkit-box-shadow: 0 1px 0px 0px rgba(255, 255, 255, 0.2) inset;
+box-shadow: 0 1px 0px 0px rgba(255, 255, 255, 0.2) inset;
+-moz-transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+transition: all 0.3s ease;
+}
+
 /*media screen*/
 
 
@@ -417,4 +540,22 @@ left: 0px;
 	
 		
 	 }
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
 	 

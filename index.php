@@ -152,9 +152,11 @@
  
 
       
-        <script src="js/jquery.flexslider.js"></script>   
-         <script src="js/scripts.js"></script>  
+        <script src="js/jquery.flexslider.js"></script>  
          
+         <script src="js/scripts.js"></script>  
+          <script src="js/bootstrap-dropdown.js"></script>
+           <script src="../assets/js/bootstrap-typeahead.js"></script>
             <script type="text/javascript">
 	$(document).ready(function() {
 		$(".fancybox").fancybox();
