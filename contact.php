@@ -123,11 +123,7 @@
                     <h5>
                         Enquiry</h5>
                     <a href="#" class="color">info@vitas.com</a>
-                    <div class="spacer-20px">
-                    </div>
-                    <h5>
-                        Technical support</h5>
-                    <a href="#" class="color"><em></em></a>
+                    
                     <div class="spacer-20px">
                     </div>
                     <h5>
