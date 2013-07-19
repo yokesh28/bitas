@@ -34,7 +34,7 @@
                                         <a href="gallery.php">Gallery</a>
                                     </li>
                                     <li>
-                                        <a href="#">Media Center</a>
+                                        <a href="media.php">Media Center</a>
                                     </li>
                                     <li>
                                         <a href="contact.php">Contact Us</a>

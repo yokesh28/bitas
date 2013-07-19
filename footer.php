@@ -70,7 +70,7 @@
             <li>  <a href="project.php">Project</a>   </li>                       
              <li>   <a href="about.php">About us</a>   </li>                  
              <li>     <a href="gallery.php">Gallery</a>   </li>                
-              <li>    <a href="#">Media Center</a>   </li>                     
+              <li>    <a href="media.php">Media Center</a>   </li>                     
                 <li>    <a href="contact.php">Contact Us</a>   </li>                           
                         </ul>
         
