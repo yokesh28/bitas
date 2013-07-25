@@ -20,6 +20,7 @@
     
     <!-- Add jQuery library -->
 <script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
     <script src="js/bootstrap.min.js"></script> 
 
 <!-- Add mousewheel plugin (this is optional) -->
@@ -198,7 +199,11 @@ $(".upcoming").click(function() {
 	});
 	
 </script>
-       
+        <script>
+		$(document).ready(function(){
+				$('#nav').mobileMenu();
+		});
+	</script> 
     
   </body>
 </html>

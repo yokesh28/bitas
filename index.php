@@ -9,16 +9,24 @@
     <meta name="author" content="">
 
     <!-- Le styles -->
+    
+     
+    
+    
     <link rel="stylesheet" href="css/font-awesome.css">
     <link href="css/bootstrap.css" rel="stylesheet">        
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="css/flexslider.css">
     
     <link href="css/style.css" rel="stylesheet" media="screen">
+   
+
     
+          
     
     <!-- Add jQuery library -->
 <script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
     <script src="js/bootstrap.min.js"></script> 
 
 <!-- Add mousewheel plugin (this is optional) -->
@@ -155,8 +163,7 @@
         <script src="js/jquery.flexslider.js"></script>  
          
          <script src="js/scripts.js"></script>  
-          <script src="js/bootstrap-dropdown.js"></script>
-           <script src="../assets/js/bootstrap-typeahead.js"></script>
+          
             <script type="text/javascript">
 	$(document).ready(function() {
 		$(".fancybox").fancybox();
@@ -198,7 +205,11 @@ $(".upcoming").click(function() {
 
 	
 </script>
-       
+          <script>
+		$(document).ready(function(){
+				$('#nav').mobileMenu();
+		});
+	</script> 
     
   </body>
 </html>

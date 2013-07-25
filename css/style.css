@@ -16,6 +16,16 @@ body {
 }
 /*navigation*/
 
+
+
+
+	
+	
+
+
+
+
+
 .navbar {
 	margin-bottom: -23px;
 	}
@@ -28,7 +38,8 @@ body {
 .contact-hd
 {
 float: right;
-margin-top: 115px;
+position: relative;
+top: 120px;
 
 }
 .contact-hd p {
@@ -50,13 +61,15 @@ margin-top: 115px;
 
 .header img.brand {
 	display: inline-block;
-	width: 200px;
-	height: 200px;
+	width: 180px;
+	height: 190px;
 	padding: 30px 0;
+	margin-left: 40px;
 }
 
 ul#nav {
 	float: right;
+	top: 130px;
 
 }
 
@@ -376,6 +389,7 @@ margin-top: 20px;
 }
 .sidebar {
 float: left;
+text-align: left;
 }
 
 form p {
@@ -540,6 +554,16 @@ top: 0px;
 left: 0px;
 
 	}
+	
+	
+	
+	.foot-pad{
+	
+	padding: 0px 10px;
+	
+	}
+	
+	
 	
 		
 	 }

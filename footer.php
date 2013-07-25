@@ -12,7 +12,7 @@
     <div class="spacer-30px"></div>
     
     <!--row starts-->
-    <div class="row"> 
+    <div class="row foot-pad"> 
       
       <!--column one starts-->
       <div class="span5 about-text">

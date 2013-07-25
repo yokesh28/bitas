@@ -20,6 +20,7 @@
     
     <!-- Add jQuery library -->
 <script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
     <script src="js/bootstrap.min.js"></script> 
  <style type="text/css">
     .input-append button.add-on { 
@@ -66,7 +67,11 @@
          <script src="js/scripts.js"></script>  
          
          
-    
+    <script>
+		$(document).ready(function(){
+				$('#nav').mobileMenu();
+		});
+	</script> 
   </body>
 </html>
     

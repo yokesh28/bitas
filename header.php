@@ -1,6 +1,6 @@
-<div class="container">
-            <div class="header row">
-                <div class="span12">
+  <div class="container">
+           
+                
                   
         
         
@@ -10,10 +10,10 @@
         
       
            
-                    <div class="navbar">
+                   <div class="navbar header">
                         <div class="navbar-inner">                                                    
                               <a  href="index.php"><img class="brand"  alt="" src="img/logo.png"></a>
-                              <div class="contact-hd">
+                               <div class="contact-hd hidden-phone">
                       
                        <p><img src="img/icons/icon-18-phone.png" alt="icon">&nbsp;(209)910-3468 &nbsp;&nbsp;<img src="img/icons/icon-18-mail.png" alt="icon">&nbsp;<a href="">info@vitas.com</a></p>
                   
@@ -51,10 +51,45 @@
                     
                     
                     
+                 
                     
-                    
-                    
-                </div>
-            </div>
+                
+           
         </div>
-        
+       
+       
+       
+       
+      
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
