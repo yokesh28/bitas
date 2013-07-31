@@ -88,19 +88,19 @@
                         <div class="flexslider">
                             <ul class="slides">
                                 <li >
-                                    <img src="img/slider/banner2.jpg">
+                                    <img src="img/slider/1.jpg">
                                     
                                 </li>
                                 <li>
-                                    <img src="img/slider/banner2.jpg">
+                                    <img src="img/slider/2.jpg">
                                     
                                 </li>
                                 <li>
-                                    <img src="img/slider/banner2.jpg">
+                                    <img src="img/slider/3.jpg">
                                     
                                 </li>
                                 <li>
-                                    <img src="img/slider/banner2.jpg">
+                                    <img src="img/slider/banner1.jpg">
                                     
                                 </li>
                                
