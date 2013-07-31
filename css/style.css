@@ -13,6 +13,7 @@ body {
 	text-align: center;
 	font-size: 12px;
 	color: #767676;
+	zoom:90%;
 }
 /*navigation*/
 
@@ -39,18 +40,20 @@ body {
 {
 float: right;
 position: relative;
-top: 120px;
+top: 60px;
+right: 74px;
 
 }
 .contact-hd p {
 	color: #B6B6B6;
-	margin-right: 50px;
+	
 	
 	
 }
 .contact-hd a {
 	color: #B6B6B6;
 	text-decoration: none;
+	font-size: 14px;
 }
 .navbar-inner {
 	background: none;
@@ -61,22 +64,23 @@ top: 120px;
 
 .header img.brand {
 	display: inline-block;
-	width: 180px;
-	height: 190px;
+	width: 150px;
+	height: 150px;
 	padding: 30px 0;
 	
 }
 
 ul#nav {
 	position:absolute;
-float: right;
-top: 150px;
-left: 28%;
+
+top: 100px;
+left: 23%;
 }
 
 ul#nav>li {
 	background: url(../img/nav2.png) no-repeat scroll right center;
 	font-size: 16px;
+	margin-left: 0px;
 }
 
 ul#nav>li:last-child {
@@ -85,7 +89,8 @@ ul#nav>li:last-child {
 
 #nav li a {
 	border-radius: 5px;
-	margin: 0px 20px;
+	margin: 0 8px;
+	
 }
 
 .active a {
@@ -95,7 +100,7 @@ ul#nav>li:last-child {
 #nav  li>a:hover {
 	background: #bfd96b !important;
 	border-radius: 5px;
-	margin: 0px 20px;
+	
 }
 
 /*home content*/
@@ -329,7 +334,7 @@ left: 390px;
 top: 270px;
 left: 114px;
 text-align: justify;
-width: 800px;
+
 }
 .about_cont h3{
 
@@ -391,6 +396,10 @@ margin-top: 20px;
 .sidebar {
 float: left;
 text-align: left;
+}
+.sidebar h5{
+	
+	font-size: 17px;
 }
 
 form p {
@@ -534,6 +543,10 @@ left: 0px;
 	
 	
 	}
+	.sidebar {
+	padding: 10px;
+	}
+	
 	
 	.project_cont1 {
 	

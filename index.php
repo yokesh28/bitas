@@ -88,7 +88,7 @@
                         <div class="flexslider">
                             <ul class="slides">
                                 <li >
-                                    <img src="img/slider/banner1.jpg">
+                                    <img src="img/slider/banner2.jpg">
                                     
                                 </li>
                                 <li>
@@ -96,7 +96,11 @@
                                     
                                 </li>
                                 <li>
-                                    <img src="img/slider/banner3.jpg">
+                                    <img src="img/slider/banner2.jpg">
+                                    
+                                </li>
+                                <li>
+                                    <img src="img/slider/banner2.jpg">
                                     
                                 </li>
                                
@@ -114,16 +118,25 @@
                  <div class="span6 welcome-vitas">
              
           <h2>WELCOME TO VITAS</h2><hr>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, 
-          tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta 
-          sem malesuada magna mollis euismod. Donec sed odio dui.
-          Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, 
-          tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta 
-          sem malesuada magna mollis euismod. Donec sed odio dui.
-          Donec sed odio dui.
-          Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, 
-          tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta 
-          sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p>Vitas is a Coimbatore based Real Estate Company selling plots and independent budget 
+
+villas. Having started out small in 2010 under the guidance of our founder, Sridevi Selvaa, we have 
+
+come a long way by learning and understanding the real estate market. Building relationships and 
+
+acquiring the trust of our customers is the reason why we have come this far.
+
+Known for its pleasant climate and friendly people, Coimbatore has been sought out by 
+
+many people to settle down. VITAS owns plots and independent villas in and around Coimbatore for 
+
+people who intend to settle down in this beautiful city!
+
+We help in providing the best possible solution to our clients at the most optimum price. We 
+
+own plots and independent houses in Ondipudur and Vadavalli respectively. 
+
+So the next time you want to buy a plot or an independent villa, think VITAS. </p>
                   </div>
                
               

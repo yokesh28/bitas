@@ -123,22 +123,21 @@
                     </div>
                     <h5>
                         Enquiry</h5>
-                    <a href="#" class="color">info@vitas.com</a>
+                    <a href="#" class="color">info@vitasinfra.com</a>
                     
                     <div class="spacer-20px">
                     </div>
                     <h5>
                         Call us</h5>
-                    <a class="color">(209)910-3468</a>
+                    <a class="color">(0422)4371273,4212461</a>
                     <div class="spacer-20px">
                     </div>
                     <h5>
-                        Be our partner</h5>
+                       Address</h5>
+                      
                     <p>
-                        We are actively seeking strategic partners to help us market <span class="color">DotsCard</span>.
-                        We believe we offer a unique business opportunity that can enable you to distinguish
-                        your business in a crowded marketplace. If you are looking to partner us in specific
-                        countries, please contact our respective channel partner manager <a class="color" href="mailto:partner@dotscard.com">info@vitas.com</a>
+                        <b>VITAS INFRA DEVOLPERS PVT.LTD.</b><br>
+                         177-178,Raju Naidu Road<br>Sivanandha Colony,Coimbatore-27.
                     </p>
                  
                 </div>

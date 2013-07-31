@@ -77,11 +77,28 @@
                 
                   <div class="span12 about_bg">
                  <img class="visible-desktop" alt="" src="img/about.png">
-                     <div class="about_cont">
+                     <div class="about_cont span8">
                       <h3>About Us</h3>
                       <p>
-	Based in Coimbatore, Vitas is a fully fledged real estate agency with a dedicated team who assist our clients in any way possible, whether it is selling properties, or constructing budget villas. Having started out small in 2010 by Sridevi Selvaa, with a generous amount of learning, we have come a long way! We strive to help our clients, represent their needs, wants and beliefs.
-	<br><br>So the next time you want to buy a villa or fully furnished apartment, think VITAS.</p>
+	Vitas is a Coimbatore based Real Estate Company selling plots and independent budget 
+
+villas. Having started out small in 2010 under the guidance of our founder, Sridevi Selvaa, we have 
+
+come a long way by learning and understanding the real estate market. Building relationships and 
+
+acquiring the trust of our customers is the reason why we have come this far.
+
+Known for its pleasant climate and friendly people, Coimbatore has been sought out by 
+
+many people to settle down. VITAS owns plots and independent villas in and around Coimbatore for 
+
+people who intend to settle down in this beautiful city!
+
+We help in providing the best possible solution to our clients at the most optimum price. We 
+
+own plots and independent houses in Ondipudur and Vadavalli respectively. 
+
+So the next time you want to buy a plot or an independent villa, think VITAS.</p>
                       </div>
                  </div> 
                  
