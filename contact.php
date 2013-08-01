@@ -129,7 +129,7 @@
                     </div>
                     <h5>
                         Call us</h5>
-                    <a class="color">(0422)4371273,4212461</a>
+                    <a class="color">&nbsp;&nbsp;Tel: &nbsp;&nbsp;(0422)4371273,4212461<br>Mob: +91 8883 22 7999, +91 9360122558</a>
                     <div class="spacer-20px">
                     </div>
                     <h5>
