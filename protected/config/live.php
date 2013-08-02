@@ -68,7 +68,7 @@ return array(
 		'password' => 'vitas123',
 		'charset' => 'utf8',
 ),
-/*
+/*   
 
 'errorHandler'=>array(
 		// use 'site/error' action to display errors
