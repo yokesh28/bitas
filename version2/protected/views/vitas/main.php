@@ -231,17 +231,17 @@
 			<div class="row">
 				<div class="span12">
 					<ul class="copyright-header">
-						<li><a href="index.php">Home</a>
+						<li><a href="<?php echo Yii::app()->createAbsoluteUrl('site/index')?>">Home</a>
 						</li>
-						<li><a href="project.php">Project</a>
+						<li><a href="<?php echo Yii::app()->createAbsoluteUrl('site/project')?>">Project</a>
 						</li>
-						<li><a href="about.php">About us</a>
+						<li><a href="<?php echo Yii::app()->createAbsoluteUrl('site/about')?>">About us</a>
 						</li>
-						<li><a href="gallery.php">Gallery</a>
+						<li><a href="<?php echo Yii::app()->createAbsoluteUrl('site/gallery')?>">Gallery</a>
 						</li>
-						<li><a href="media.php">Media Center</a>
+						<li><a href="<?php echo Yii::app()->createAbsoluteUrl('site/media')?>">Media Center</a>
 						</li>
-						<li><a href="contact.php">Contact Us</a>
+						<li><a href="<?php echo Yii::app()->createAbsoluteUrl('site/contact')?>">Contact Us</a>
 						</li>
 					</ul>
 

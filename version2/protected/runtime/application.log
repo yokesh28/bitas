@@ -27,3 +27,201 @@ Stack trace:
 REQUEST_URI=/vitas/version2/index.php/index
 HTTP_REFERER=http://localhost/vitas/version2/index.php/project
 ---
+2013/08/02 16:53:35 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "media".' in /var/www/vitas/version2/library/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/vitas/version2/library/framework/web/CController.php(782): CController->renderPartial('media', NULL, true)
+#1 /var/www/vitas/version2/protected/controllers/SiteController.php(71): CController->render('media')
+#2 /var/www/vitas/version2/library/framework/web/actions/CInlineAction.php(49): SiteController->actionMedia()
+#3 /var/www/vitas/version2/library/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/vitas/version2/library/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/vitas/version2/library/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/vitas/version2/library/framework/web/CWebApplication.php(282): CController->run('media')
+#7 /var/www/vitas/version2/library/framework/web/CWebApplication.php(141): CWebApplication->runController('site/media')
+#8 /var/www/vitas/version2/library/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /var/www/vitas/version2/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/version2/index.php/site/media
+HTTP_REFERER=http://vitas.com/version2/index.php/site/gallery
+---
+2013/08/02 17:19:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/vitas/version2/library/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/vitas/version2/library/framework/web/CController.php(270): CController->missingAction('img')
+#1 /var/www/vitas/version2/library/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /var/www/vitas/version2/library/framework/web/CWebApplication.php(141): CWebApplication->runController('site/img/ongoin...')
+#3 /var/www/vitas/version2/library/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/vitas/version2/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/version2/index.php/site/img/ongoing1.png
+HTTP_REFERER=http://vitas.com/version2/index.php/site/index
+---
+2013/08/02 17:20:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/vitas/version2/library/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/vitas/version2/library/framework/web/CController.php(270): CController->missingAction('img')
+#1 /var/www/vitas/version2/library/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /var/www/vitas/version2/library/framework/web/CWebApplication.php(141): CWebApplication->runController('site/img/ongoin...')
+#3 /var/www/vitas/version2/library/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/vitas/version2/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/version2/index.php/site/img/ongoing1.png
+HTTP_REFERER=http://vitas.com/version2/index.php/site/index
+---
+2013/08/02 17:20:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/vitas/version2/library/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/vitas/version2/library/framework/web/CController.php(270): CController->missingAction('img')
+#1 /var/www/vitas/version2/library/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /var/www/vitas/version2/library/framework/web/CWebApplication.php(141): CWebApplication->runController('site/img/ongoin...')
+#3 /var/www/vitas/version2/library/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/vitas/version2/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/version2/index.php/site/img/ongoing1.png
+HTTP_REFERER=http://vitas.com/version2/index.php/site/index
+---
+2013/08/02 17:22:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/vitas/version2/library/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/vitas/version2/library/framework/web/CController.php(270): CController->missingAction('img')
+#1 /var/www/vitas/version2/library/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /var/www/vitas/version2/library/framework/web/CWebApplication.php(141): CWebApplication->runController('site/img/ongoin...')
+#3 /var/www/vitas/version2/library/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/vitas/version2/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/version2/index.php/site/img/ongoing1.png
+HTTP_REFERER=http://vitas.com/version2/index.php/site/index
+---
+2013/08/02 17:22:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/vitas/version2/library/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/vitas/version2/library/framework/web/CController.php(270): CController->missingAction('img')
+#1 /var/www/vitas/version2/library/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /var/www/vitas/version2/library/framework/web/CWebApplication.php(141): CWebApplication->runController('site/img/ongoin...')
+#3 /var/www/vitas/version2/library/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/vitas/version2/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/version2/index.php/site/img/ongoing1.png
+HTTP_REFERER=http://vitas.com/version2/index.php/site/index
+---
+2013/08/02 17:23:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/vitas/version2/library/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/vitas/version2/library/framework/web/CController.php(270): CController->missingAction('img')
+#1 /var/www/vitas/version2/library/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /var/www/vitas/version2/library/framework/web/CWebApplication.php(141): CWebApplication->runController('site/img/ongoin...')
+#3 /var/www/vitas/version2/library/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/vitas/version2/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/version2/index.php/site/img/ongoing1.png
+HTTP_REFERER=http://vitas.com/version2/index.php/site/index
+---
+2013/08/02 17:23:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/vitas/version2/library/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/vitas/version2/library/framework/web/CController.php(270): CController->missingAction('img')
+#1 /var/www/vitas/version2/library/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /var/www/vitas/version2/library/framework/web/CWebApplication.php(141): CWebApplication->runController('site/img/ongoin...')
+#3 /var/www/vitas/version2/library/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/vitas/version2/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/version2/index.php/site/img/ongoing1.png
+---
+2013/08/02 17:24:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/vitas/version2/library/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/vitas/version2/library/framework/web/CController.php(270): CController->missingAction('img')
+#1 /var/www/vitas/version2/library/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /var/www/vitas/version2/library/framework/web/CWebApplication.php(141): CWebApplication->runController('site/img/ongoin...')
+#3 /var/www/vitas/version2/library/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/vitas/version2/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/version2/index.php/site/img/ongoing1.png
+HTTP_REFERER=http://vitas.com/version2/index.php/site/index
+---
+2013/08/02 17:24:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/vitas/version2/library/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/vitas/version2/library/framework/web/CController.php(270): CController->missingAction('img')
+#1 /var/www/vitas/version2/library/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /var/www/vitas/version2/library/framework/web/CWebApplication.php(141): CWebApplication->runController('site/img/ongoin...')
+#3 /var/www/vitas/version2/library/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/vitas/version2/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/version2/index.php/site/img/ongoing1.png
+---
+2013/08/02 17:26:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/vitas/version2/library/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/vitas/version2/library/framework/web/CController.php(270): CController->missingAction('img')
+#1 /var/www/vitas/version2/library/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /var/www/vitas/version2/library/framework/web/CWebApplication.php(141): CWebApplication->runController('site/img/ongoin...')
+#3 /var/www/vitas/version2/library/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/vitas/version2/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/version2/index.php/site/img/ongoing1.png
+HTTP_REFERER=http://vitas.com/version2/index.php/site/index
+---
+2013/08/02 17:27:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/vitas/version2/library/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/vitas/version2/library/framework/web/CController.php(270): CController->missingAction('img')
+#1 /var/www/vitas/version2/library/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /var/www/vitas/version2/library/framework/web/CWebApplication.php(141): CWebApplication->runController('site/img/ongoin...')
+#3 /var/www/vitas/version2/library/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/vitas/version2/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/version2/index.php/site/img/ongoing1.png
+---
+2013/08/02 17:36:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/vitas/version2/library/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/vitas/version2/library/framework/web/CController.php(270): CController->missingAction('img')
+#1 /var/www/vitas/version2/library/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /var/www/vitas/version2/library/framework/web/CWebApplication.php(141): CWebApplication->runController('site/img/ongoin...')
+#3 /var/www/vitas/version2/library/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/vitas/version2/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/version2/index.php/site/img/ongoing1.png
+HTTP_REFERER=http://vitas.com/version2/index.php/site/index
+---
+2013/08/02 17:38:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "themes".' in /var/www/vitas/version2/library/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/vitas/version2/library/framework/web/CController.php(270): CController->missingAction('themes')
+#1 /var/www/vitas/version2/library/framework/web/CWebApplication.php(282): CController->run('themes')
+#2 /var/www/vitas/version2/library/framework/web/CWebApplication.php(141): CWebApplication->runController('site/themes/vit...')
+#3 /var/www/vitas/version2/library/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/vitas/version2/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/version2/index.php/site/themes/vitas/img/ongoing1.png
+HTTP_REFERER=http://vitas.com/version2/index.php/site/index
+---
+2013/08/02 17:38:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/vitas/version2/library/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/vitas/version2/library/framework/web/CController.php(270): CController->missingAction('img')
+#1 /var/www/vitas/version2/library/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /var/www/vitas/version2/library/framework/web/CWebApplication.php(141): CWebApplication->runController('site/img/ongoin...')
+#3 /var/www/vitas/version2/library/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/vitas/version2/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/version2/index.php/site/img/ongoing1.png
+HTTP_REFERER=http://vitas.com/version2/index.php/site/index
+---
+2013/08/02 17:38:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/vitas/version2/library/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/vitas/version2/library/framework/web/CController.php(270): CController->missingAction('img')
+#1 /var/www/vitas/version2/library/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /var/www/vitas/version2/library/framework/web/CWebApplication.php(141): CWebApplication->runController('site/img/ongoin...')
+#3 /var/www/vitas/version2/library/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/vitas/version2/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/version2/index.php/site/img/ongoing1.png
+---
+2013/08/02 17:38:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "themes".' in /var/www/vitas/version2/library/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/vitas/version2/library/framework/web/CController.php(270): CController->missingAction('themes')
+#1 /var/www/vitas/version2/library/framework/web/CWebApplication.php(282): CController->run('themes')
+#2 /var/www/vitas/version2/library/framework/web/CWebApplication.php(141): CWebApplication->runController('site/themes/vit...')
+#3 /var/www/vitas/version2/library/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/vitas/version2/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/version2/index.php/site/themes/vitas/img/ongoing1.png
+---
+2013/08/02 17:39:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in /var/www/vitas/version2/library/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/vitas/version2/library/framework/web/CController.php(270): CController->missingAction('img')
+#1 /var/www/vitas/version2/library/framework/web/CWebApplication.php(282): CController->run('img')
+#2 /var/www/vitas/version2/library/framework/web/CWebApplication.php(141): CWebApplication->runController('site/img/ongoin...')
+#3 /var/www/vitas/version2/library/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/vitas/version2/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/version2/index.php/site/img/ongoing1.png
+HTTP_REFERER=http://vitas.com/version2/index.php/site/index
+---
