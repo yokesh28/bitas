@@ -56,8 +56,8 @@ $(".ongoing").click(function() {
 	    
 	    $.fancybox.open([
 	        {
-	        	href : '/themes/vitas/img/ongoing1.png',                
-	            href : '/themes/vitas/img/upcoming1.png',            
+	        	href : '<?php echo Yii::app()->theme->baseUrl;?>/img/ongoing1.png',                
+	                  
 	           
 	        }
 	        
