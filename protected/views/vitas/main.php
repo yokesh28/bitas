@@ -132,8 +132,7 @@
 						</li>
 						<li class="span2"><a href="<?php echo Yii::app()->createAbsoluteUrl('site/about')?>">About us</a>
 						</li>
-						<li class="span2"><a href="<?php echo Yii::app()->createAbsoluteUrl('site/gallery')?>">Gallery</a>
-						</li>
+					
 						<li class="span2"><a href="<?php echo Yii::app()->createAbsoluteUrl('site/media')?>">Media</a>
 						</li>
 						<li class="span2"><a href="<?php echo Yii::app()->createAbsoluteUrl('site/contact')?>">Contact</a>
