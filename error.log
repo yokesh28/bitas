@@ -1,0 +1,8 @@
+[Fri Aug 02 16:52:23 2013] [error] [client 127.0.0.1] PHP Fatal error:  Cannot redeclare SiteController::actionContact() in /var/www/vitas/version2/protected/controllers/SiteController.php on line 99
+[Fri Aug 02 16:53:35 2013] [error] [client 127.0.0.1] File does not exist: /var/www/vitas/favicon.ico
+[Fri Aug 02 17:37:41 2013] [error] [client 127.0.0.1] File does not exist: /var/www/vitas/favicon.ico
+[Fri Aug 02 17:38:38 2013] [error] [client 127.0.0.1] File does not exist: /var/www/vitas/version2/img
+[Fri Aug 02 17:38:38 2013] [error] [client 127.0.0.1] File does not exist: /var/www/vitas/favicon.ico
+[Fri Aug 02 17:38:49 2013] [error] [client 127.0.0.1] File does not exist: /var/www/vitas/favicon.ico
+[Fri Aug 02 17:39:06 2013] [error] [client 127.0.0.1] File does not exist: /var/www/vitas/themes, referer: http://vitas.com/version2/index.php/site/index
+[Fri Aug 02 17:43:02 2013] [error] [client 127.0.0.1] File does not exist: /var/www/vitas/themes, referer: http://vitas.com/version2/index.php/site/about

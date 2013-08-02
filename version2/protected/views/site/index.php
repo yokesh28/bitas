@@ -40,40 +40,41 @@ $this->pageTitle=Yii::app()->name;
 
 			<h2>WELCOME TO VITAS</h2>
 			<hr>
-			<p>Vitas is a Coimbatore based Real Estate Company selling plots and
-				independent budget villas. Having started out small in 2010 under
-				the guidance of our founder, Sridevi Selvaa, we have come a long way
-				by learning and understanding the real estate market. Building
-				relationships and acquiring the trust of our customers is the reason
-				why we have come this far. Known for its pleasant climate and
-				friendly people, Coimbatore has been sought out by many people to
-				settle down. VITAS owns plots and independent villas in and around
-				Coimbatore for people who intend to settle down in this beautiful
-				city! We help in providing the best possible solution to our clients
-				at the most optimum price. We own plots and independent houses in
-				Ondipudur and Vadavalli respectively. So the next time you want to
-				buy a plot or an independent villa, think VITAS.</p>
+			<p>VITAS is a real estate company specialised in selling plots and independent villas in and 
+
+around Coimbatore.  We are a recognised company having established ourselves firmly in the real 
+
+estate market. VITAS sells approved sites and houses at affordable prices. <br><br>
+
+Building relationships and acquiring the trust of our customers is the reason why we have 
+
+come this far. Planning to buy a plot or a villa, get in touch with the VITAS team and let us help you 
+
+out!.</p>
 		</div>
 
-
-		<div class="span3">
+<div class="span6 welcome-vitas1 ">
+		<div class="span2 proj">
 
 			<a class="ongoing" rel="group"
 				href="<?php echo Yii::app()->theme->baseUrl;?>/img/ongoing1.png"><img
-				src="<?php echo Yii::app()->theme->baseUrl;?>/img/on1.png" alt="" />
+				src="<?php echo Yii::app()->theme->baseUrl;?>/img/proj.png"  />
 			</a>
 
 
 		</div>
 
 
-		<div class="span3">
-			<a class="upcoming" rel="group"
-				href="<?php echo Yii::app()->theme->baseUrl;?>/img/upcoming1.png"><img
-				src="<?php echo Yii::app()->theme->baseUrl;?>/img/up1.png" alt="" />
-			</a>
+		<div class="span3 proj1">
+			
+<p>VITAS is a real estate company specialised in selling plots and independent villas in and 
 
+around Coimbatore.  We are a recognised company having established ourselves firmly in the real 
 
+estate market. VITAS sells approved sites and houses at affordable prices.</p>
+
+		</div>
+		
 		</div>
 	</div>
 
@@ -89,3 +90,38 @@ $this->pageTitle=Yii::app()->name;
 
 <script
 	src="<?php echo Yii::app()->theme->baseUrl;?>/js/scripts.js"></script>
+	
+	
+	 <script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+
+	$(".ongoing").click(function() {
+	    
+	    $.fancybox.open([
+	        {
+	        	href : '/themes/vitas/img/ongoing1.png',                
+	            href : '/themes/vitas/img/upcoming1.png',               
+	           
+	        }
+	        
+	       
+	    ], {
+	        padding : 0
+	    });
+	    
+	    return false;
+	    
+	});
+
+
+
+
+	
+</script>
+          <script>
+		$(document).ready(function(){
+				$('#nav').mobileMenu();
+		});
+	</script> 
