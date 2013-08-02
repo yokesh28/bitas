@@ -26,27 +26,27 @@
                         <p>
                             <label>
                                 Full Name :</label>
-                            <input name="name" type="text" id="ContentPlaceHolder1_fullName" required="">
+                            <input name="name" type="text" id="ContentPlaceHolder1_fullName" required class="span3">
                         </p>
                         <p>
                             <label>
                                 Company Name :</label>
-                            <input name="companyname" type="text" id="ContentPlaceHolder1_company" required="">
+                            <input name="companyname" type="text" id="ContentPlaceHolder1_company" required="" class="span3">
                         </p>
                         <p>
                             <label>
                                 Telephone Number :</label>
-                            <input name="phone" type="text" id="ContentPlaceHolder1_phone" required="">
+                            <input name="phone" type="text" id="ContentPlaceHolder1_phone" required="" class="span3">
                         </p>
                         <p>
                             <label>
                                 Email Address :</label>
-                            <input name="email" type="text" id="ContentPlaceHolder1_email" required="">
+                            <input name="email" type="text" id="ContentPlaceHolder1_email" required="" class="span3">
                         </p>
                         <p>
                             <label>
                                 Referred By :</label>
-                            <select name="referred" id="ContentPlaceHolder1_referredBy" >
+                            <select name="referred" id="ContentPlaceHolder1_referredBy" class="span3">
 	<option value="Article">Article</option>
 	<option value="College">College</option>
 	<option value="Print Ad">Print Ad</option>
@@ -61,7 +61,7 @@
                             <label>
                                 Message :</label>
                             
-                            <textarea name="msg" rows="4" cols="20" id="ContentPlaceHolder1_message" required=""></textarea>
+                            <textarea name="msg" rows="4" cols="20" id="ContentPlaceHolder1_message" required="" class="span3"></textarea>
                         </p>
                         
                         

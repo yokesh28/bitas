@@ -467,13 +467,17 @@ font-weight: 400;
 
 
 input[type="text"], select, textarea {
-width: 60% !important;
+
 height: 30px;
 padding: 5px;
-margin: 0;
-display: inline-block;
-/*background: #202021;*/
-border-color: #484A4B;
+
+
+}
+select[class*="span"] {
+
+height: 42px;
+padding: 5px;
+
 
 }
 input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:focus {
