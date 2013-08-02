@@ -33,6 +33,18 @@ class SiteController extends FrontController
 		
 		$this->render('index');
 	}
+	
+	/*project*/
+	
+	public function actionProject()
+	{
+		// renders the view file 'protected/views/site/index.php'
+		// using the default layout 'protected/views/layouts/main.php'
+	
+	
+		$this->render('project');
+	}
+	
 
 	/**
 	 * This is the action to handle external exceptions.
