@@ -5,6 +5,9 @@ class AdminController extends Controller
 	public function actionIndex(){
 		$this->render('index');
 	}
+	
+	
+	
 	/**
 	 * Displays the login page
 	 */
