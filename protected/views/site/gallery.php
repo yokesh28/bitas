@@ -1,4 +1,4 @@
-<div class="container gallery" style="margin-bottom: 30px;">
+<div class="container gallery" >
 	<div class="row">
 
 <?php foreach($model as $data):?>
