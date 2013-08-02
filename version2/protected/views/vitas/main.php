@@ -1,59 +1,311 @@
 <?php /* @var $this Controller */ ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!DOCTYPE html>
+<html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="language" content="en" />
 
-	<!-- blueprint CSS framework -->
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/screen.css" media="screen, projection" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/print.css" media="print" />
-	<!--[if lt IE 8]>
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/ie.css" media="screen, projection" />
-	<![endif]-->
+<meta charset="utf-8">
+<title><?php echo CHtml::encode($this->pageTitle); ?></title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
 
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
+<!-- Le styles -->
 
-	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
+
+
+<link rel="shortcut icon" type="image/x-icon"
+	href="<?php echo Yii::app()->theme->baseUrl;?>/img/favicon.ico">
+<link rel="stylesheet"
+	href="<?php echo Yii::app()->theme->baseUrl;?>/css/font-awesome.css">
+<link href="<?php echo Yii::app()->theme->baseUrl;?>/css/bootstrap.css"
+	rel="stylesheet">
+<link
+	href="<?php echo Yii::app()->theme->baseUrl;?>/css/bootstrap-responsive.css"
+	rel="stylesheet">
+<link rel="stylesheet"
+	href="<?php echo Yii::app()->theme->baseUrl;?>/css/flexslider.css">
+
+<link href="<?php echo Yii::app()->theme->baseUrl;?>/css/style.css"
+	rel="stylesheet" media="screen">
+
+
+
+
+
+<!-- Add jQuery library -->
+<script src="http://code.jquery.com/jquery.js"></script>
+<script
+	src="<?php echo Yii::app()->theme->baseUrl;?>/js/jquery.mobilemenu.js"></script>
+<script
+	src="<?php echo Yii::app()->theme->baseUrl;?>/js/bootstrap.min.js"></script>
+
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript"
+	src="<?php echo Yii::app()->theme->baseUrl;?>/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet"
+	href="<?php echo Yii::app()->theme->baseUrl;?>/fancybox/source/jquery.fancybox.css?v=2.1.5"
+	type="text/css" media="screen" />
+<script type="text/javascript"
+	src="<?php echo Yii::app()->theme->baseUrl;?>/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet"
+	href="<?php echo Yii::app()->theme->baseUrl;?>/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5"
+	type="text/css" media="screen" />
+<script type="text/javascript"
+	src="<?php echo Yii::app()->theme->baseUrl;?>/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript"
+	src="<?php echo Yii::app()->theme->baseUrl;?>/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+<link rel="stylesheet"
+	href="<?php echo Yii::app()->theme->baseUrl;?>/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7"
+	type="text/css" media="screen" />
+<script type="text/javascript"
+	src="<?php echo Yii::app()->theme->baseUrl;?>/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+
+
+
+
+
+
+
+
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+<!-- Fav and touch icons -->
+
+<!--   <link rel="shortcut icon" href="../assets/ico/favicon.png">-->
+
+<style type="text/css">
+.input-append button.add-on {
+	height: inherit !important;
+}
+</style>
+
+
+
 </head>
-
 <body>
 
-<div class="container" id="page">
 
-	<div id="header">
-		<div id="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div>
-	</div><!-- header -->
+	<div class="container">
 
-	<div id="mainmenu">
-		<?php $this->widget('zii.widgets.CMenu',array(
-			'items'=>array(
-				array('label'=>'Home', 'url'=>array('/site/index')),
-				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
-				array('label'=>'Contact', 'url'=>array('/site/contact')),
-				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
-			),
-		)); ?>
-	</div><!-- mainmenu -->
-	<?php if(isset($this->breadcrumbs)):?>
-		<?php $this->widget('zii.widgets.CBreadcrumbs', array(
-			'links'=>$this->breadcrumbs,
-		)); ?><!-- breadcrumbs -->
-	<?php endif?>
+		<!-- header -->
+
+
+		<!-- nav header -->
+
+
+
+
+		<div class="navbar  header">
+			<div class="navbar-inner">
+				<a href="index.php"><img class="brand" alt=""
+					src="<?php echo Yii::app()->theme->baseUrl;?>/img/logo.png"> </a>
+				<div class="contact-hd hidden-phone">
+
+					<p>
+						<img
+							src="<?php echo Yii::app()->theme->baseUrl;?>/img/icons/icon-18-phone.png"
+							alt="icon">&nbsp;(0422)4371273,4212461 &nbsp;&nbsp;<img
+							src="<?php echo Yii::app()->theme->baseUrl;?>/img/icons/icon-18-mail.png"
+							alt="icon">&nbsp;<a href="">info@vitasinfra.com</a>
+					</p>
+
+				</div>
+
+				<div class="nav-collapse collapse row-fluid"
+					style="position: relative;">
+					<ul id="nav" class="nav span10">
+						<li class="span2"><a href="index.php">Home</a>
+						</li>
+						<li class="span2"><a href="project.php">Project</a>
+						</li>
+						<li class="span2"><a href="about.php">About us</a>
+						</li>
+						<li class="span2"><a href="gallery.php">Gallery</a>
+						</li>
+						<li class="span2"><a href="media.php">Media</a>
+						</li>
+						<li class="span2"><a href="contact.php">Contact</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+
 
 	<?php echo $content; ?>
 
-	<div class="clear"></div>
 
-	<div id="footer">
-		Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
-		All Rights Reserved.<br/>
-		<?php echo Yii::powered(); ?>
-	</div><!-- footer -->
+	<footer id="footer" class="clearfix">
+		<div class="container">
 
-</div><!-- page -->
 
-</body>
+			<!--Twitter-->
+
+
+			<!--End Twitter-->
+
+
+			<!--spacer here-->
+			<div class="spacer-30px"></div>
+
+			<!--row starts-->
+			<div class="row foot-pad">
+
+				<!--column one starts-->
+				<div class="span5 about-text">
+					<h5>About</h5>
+					<p>Vitas is a Coimbatore based Real Estate Company selling plots
+						and independent budget villas. Having started out small in 2010
+						under the guidance of our founder, Sridevi Selvaa, we have come a
+						long way by learning and understanding the real estate market.
+						Building relationships and acquiring the trust of our customers is
+						the reason why we have come this far.</p>
+
+				</div>
+				<!--column one ends-->
+
+				<!--column two starts-->
+				<div class="span4">
+
+					<h5>Twitter Feeds</h5>
+					<div id="twitter">
+						<ul class="tweetList"></ul>
+					</div>
+				</div>
+				<!--column two ends-->
+
+				<!--column three starts-->
+				<div class="span3">
+					<h5 style="margin-left: 23px;">Get in Touch</h5>
+					<ul class="list-info">
+						<li><img
+							src="<?php echo Yii::app()->theme->baseUrl;?>/img/icons/icon-18-address.png"
+							alt="icon">&nbsp; 177-178,Raju Naidu Road,<br>&nbsp;&nbsp;&nbsp;&nbsp;Sivanandha
+							Colony,<br>&nbsp;&nbsp;&nbsp;&nbsp;Coimbatore-27.</li>
+						<li><img
+							src="<?php echo Yii::app()->theme->baseUrl;?>/img/icons/icon-18-phone.png"
+							alt="icon">&nbsp;(0422)4371273,4212461</li>
+						<li><img
+							src="<?php echo Yii::app()->theme->baseUrl;?>/img/icons/icon-18-mail.png"
+							alt="icon">&nbsp;<a href="info@vitasinfra.com">info@vitasinfra.com</a>
+						</li>
+
+					</ul>
+				</div>
+				<div class="social1 span6">
+
+					<h5 class="social-text">Follow us</h5>
+					<ul class="social">
+						<li><a href="#" class="mail"></a></li>
+						<li><a href="#" class="facebook"></a></li>
+						<li><a href="#" class="twitter"></a></li>
+					</ul>
+					<!--column three ends-->
+
+				</div>
+				<!--row ends-->
+
+			</div>
+		</div>
+	</footer>
+
+
+	<section id="copyright" class="clearfix">
+		<div class="container">
+			<div class="row">
+				<div class="span12">
+					<ul class="copyright-header">
+						<li><a href="index.php">Home</a>
+						</li>
+						<li><a href="project.php">Project</a>
+						</li>
+						<li><a href="about.php">About us</a>
+						</li>
+						<li><a href="gallery.php">Gallery</a>
+						</li>
+						<li><a href="media.php">Media Center</a>
+						</li>
+						<li><a href="contact.php">Contact Us</a>
+						</li>
+					</ul>
+
+					<!--copyright menu starts-->
+					<ul class="copyright-menu">
+						<li><a href="#">Terms &amp; Conditions</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+
+					</ul>
+					<!--copyright menu ends-->
+
+				</div>
+			</div>
+		</div>
+	</section>
+	
+       
+          
+            <script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+
+	$(".ongoing").click(function() {
+	    
+	    $.fancybox.open([
+	        {
+	            href : 'img/ongoing1.png',                
+	           
+	        }
+	        
+	       
+	    ], {
+	        padding : 0
+	    });
+	    
+	    return false;
+	    
+	});
+
+$(".upcoming").click(function() {
+	    
+	    $.fancybox.open([
+	        {
+	            href : 'img/upcoming1.png',                
+	           
+	        }
+	       
+	    ], {
+	        padding : 0
+	    });
+	    
+	    return false;
+	    
+	});
+
+
+	
+</script>
+          <script>
+		$(document).ready(function(){
+				$('#nav').mobileMenu();
+		});
+	</script> 
+    
+  </body>
 </html>
+	
