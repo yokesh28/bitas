@@ -195,8 +195,8 @@
 					<ul class="list-info">
 						<li><img
 							src="<?php echo Yii::app()->theme->baseUrl;?>/img/icons/icon-18-address.png"
-							alt="icon">&nbsp; 177-178,Raju Naidu Road,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sivanandha
-							Colony,<br>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Coimbatore-27,TamilNadu ,<br>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbspIndia.</li>
+							alt="icon">&nbsp; 177-178, Raju Naidu Road,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sivanandha
+							Colony,<br>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Coimbatore-600027,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TamilNadu ,<br>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbspIndia.</li>
 						<li><img
 							src="<?php echo Yii::app()->theme->baseUrl;?>/img/icons/icon-18-phone.png"
 							alt="icon">&nbsp;(0422) 4371273, 4212461</li>
