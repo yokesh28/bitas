@@ -96,7 +96,7 @@
                       
                     <p>
                         <b>VITAS INFRA DEVOLPERS PVT.LTD.</b><br>
-                         177-178,Raju Naidu Road<br>Sivanandha Colony,Coimbatore-27.
+                         177-178, Raju Naidu Road<br>Sivanandha Colony,Coimbatore-600027,<br>Tamilnadu,<br>India.
                     </p>
                  
                 </div>

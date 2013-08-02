@@ -424,7 +424,7 @@ section .contact-header p{
 }
 .contact_bg{
 	
-	background: url("../img/con-bac.png")repeat;
+	/*background: url("../img/con-bac.png")repeat;*/
 	margin-bottom: 80px;
 	
 }
@@ -443,6 +443,7 @@ text-align: left;
 }
 
 form p {
+	font-size: 13px;
 margin-bottom: 20px;
 padding-bottom: 0px;
 background: none;
@@ -471,7 +472,7 @@ height: 30px;
 padding: 5px;
 margin: 0;
 display: inline-block;
-background: #202021;
+/*background: #202021;*/
 border-color: #484A4B;
 
 }
@@ -482,12 +483,12 @@ border-color: #484A4B;
 box-shadow:none;
 }
 form a{
-	
-	color: white;
+	font-size: 13px;
+	color: black;
 text-decoration: none;
 }
 form a:HOVER{
-	color: white;
+	color: black;
 text-decoration: none;
 }
 
