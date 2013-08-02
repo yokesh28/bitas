@@ -6,7 +6,7 @@
 
 			<a class="fancybox" rel=""
 				href="/img/<?php echo $data->image ?>"><img
-				src="/img/thumbs/<?php echo 'asdf_'.$data->image ?>" title=<?php echo $data->title ?>
+				src="/img/thumbs/<?php echo 'asdf_'.$data->image ?>" title=<?php echo $data->title ?> class="img-thumbnail"
 				alt="" /> </a>
 		</div>
 <?php endforeach;?>
@@ -19,7 +19,7 @@
 	<div class="row">
 		<div class="span6 project_vitas">
 			<a class="ongoing" rel="group" href="img/ongoing1.png"><img
-				src="<?php echo Yii::app()->theme->baseUrl;?>/img/project1.png" class="img-thumbnail"
+				src="<?php echo Yii::app()->theme->baseUrl;?>/img/project1.png" 
 				alt="" /> </a>
 
 
