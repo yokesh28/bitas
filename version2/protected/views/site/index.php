@@ -101,7 +101,8 @@ estate market. VITAS sells approved sites and houses at affordable prices.</p>
 	    
 	    $.fancybox.open([
 	        {
-	            href : '/themes/vitas/img/ongoing1.png',                
+	        	href : '/themes/vitas/img/ongoing1.png',                
+	            href : '/themes/vitas/img/upcoming1.png',               
 	           
 	        }
 	        

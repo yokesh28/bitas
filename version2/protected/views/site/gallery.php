@@ -64,8 +64,8 @@
     
     <div class="row">      
        <div class="span6 project_vitas">
-        <a class="ongoing" rel="group" href="img/ongoing1.png"><img src="<?php echo Yii::app()->theme->baseUrl;?>/img/ongoing.png" alt="" /></a>
-        <a class="ongoing" rel="group" href="img/ongoing1.png"><img src="<?php echo Yii::app()->theme->baseUrl;?>/img/upcoming.png" alt="" /></a>
+        <a class="ongoing" rel="group" href="img/ongoing1.png"><img src="<?php echo Yii::app()->theme->baseUrl;?>/img/project1.png" alt="" /></a>
+      
                   
           </div>   
        </div>            
@@ -81,8 +81,8 @@ $(".ongoing").click(function() {
 	    
 	    $.fancybox.open([
 	        {
-	            href : '<?php echo Yii::app()->theme->baseUrl;?>/img/ongoing1.png',                
-	           
+	            href : '/themes/vitas/img/ongoing1.png',                
+	            href : '/themes/vitas/img/upcoming1.png', 
 	        }
 	        
 	       
