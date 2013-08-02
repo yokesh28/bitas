@@ -56,8 +56,8 @@ out!.</p>
 <div class="span6 welcome-vitas1 ">
 		<div class="span2 proj">
 
-			<a class="ongoing" rel="group"
-				href="<?php echo Yii::app()->theme->baseUrl;?>/img/ongoing1.png"><img
+			<a class="ongoing" rel=""
+				href="<?php echo Yii::app()->theme->baseUrl;?>/img/upcoming1.png"><img
 				src="<?php echo Yii::app()->theme->baseUrl;?>/img/proj.png"  />
 			</a>
 
@@ -101,9 +101,9 @@ estate market. VITAS sells approved sites and houses at affordable prices.</p>
 	    
 	    $.fancybox.open([
 	        {
-	        	href : '/themes/vitas/img/ongoing1.png',                
-	            href : '/themes/vitas/img/upcoming1.png',               
-	           
+	        	               
+	            href : '<?php echo Yii::app()->theme->baseUrl;?>/img/ongoing1.png',               
+	            
 	        }
 	        
 	       
