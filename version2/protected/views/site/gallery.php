@@ -6,7 +6,7 @@
 
 			<a class="fancybox" rel=""
 				href="/img/<?php echo $data->image ?>"><img
-				src="/vitas/version2/img/thumbs/<?php echo 'asdf_'.$data->image ?>" title=<?php echo $data->title ?>
+				src="/img/thumbs/<?php echo 'asdf_'.$data->image ?>" title=<?php echo $data->title ?>
 				alt="" /> </a>
 		</div>
 <?php endforeach;?>
