@@ -322,13 +322,23 @@ margin: 0px;
 	position: absolute;
 top: 240px;
 left: 114px;
-
+background: #C0DA6C;
+margin-top: 30px;
+border-radius: 5px;
 
 }
+.project_cont a{
+	
+	float: left;
+}
+
 .project_cont1 {
 	position: absolute;
 top: 240px;
 left: 390px;
+background: #C0DA6C;
+margin-top: 30px;
+border-radius: 5px;
 
 
 }
