@@ -43,6 +43,7 @@ var responsiveNav = (function (window, document) {
     // fn arg can be an object or a function, thanks to handleEvent
     // read more at: http://www.thecssninja.com/javascript/handleevent
     addEvent = function (el, evt, fn, bubble) {
+	 
       if ("addEventListener" in el) {
         // BBOS6 doesn't support handleEvent, catch and polyfill
         try {
@@ -85,6 +86,7 @@ var responsiveNav = (function (window, document) {
         }
       } else if ("detachEvent" in el) {
         if (typeof fn === "object" && fn.handleEvent) {
+        	
           el.detachEvent("on" + evt, function () {
             fn.handleEvent.call(fn);
           });
