@@ -115,7 +115,7 @@
 					<p>
 						<img
 							src="<?php echo Yii::app()->theme->baseUrl;?>/img/icons/icon-18-phone.png"
-							alt="icon">&nbsp;(0422)4371273,4212461 &nbsp;&nbsp;<img
+							alt="icon">&nbsp;(0422) 4371273, 4212461 &nbsp;&nbsp;<img
 							src="<?php echo Yii::app()->theme->baseUrl;?>/img/icons/icon-18-mail.png"
 							alt="icon">&nbsp;<a href="">info@vitasinfra.com</a>
 					</p>
@@ -196,11 +196,11 @@
 					<ul class="list-info">
 						<li><img
 							src="<?php echo Yii::app()->theme->baseUrl;?>/img/icons/icon-18-address.png"
-							alt="icon">&nbsp; 177-178,Raju Naidu Road,<br>&nbsp;&nbsp;&nbsp;&nbsp;Sivanandha
-							Colony,<br>&nbsp;&nbsp;&nbsp;&nbsp;Coimbatore-27.</li>
+							alt="icon">&nbsp; 177-178,Raju Naidu Road,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sivanandha
+							Colony,<br>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Coimbatore-27,TamilNadu ,<br>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbspIndia.</li>
 						<li><img
 							src="<?php echo Yii::app()->theme->baseUrl;?>/img/icons/icon-18-phone.png"
-							alt="icon">&nbsp;(0422)4371273,4212461</li>
+							alt="icon">&nbsp;(0422) 4371273, 4212461</li>
 						<li><img
 							src="<?php echo Yii::app()->theme->baseUrl;?>/img/icons/icon-18-mail.png"
 							alt="icon">&nbsp;<a href="info@vitasinfra.com">info@vitasinfra.com</a>
@@ -260,52 +260,8 @@
 	
        
           
-            <script type="text/javascript">
-	$(document).ready(function() {
-		$(".fancybox").fancybox();
-	});
-
-	$(".ongoing").click(function() {
-	    
-	    $.fancybox.open([
-	        {
-	            href : 'img/ongoing1.png',                
-	           
-	        }
-	        
-	       
-	    ], {
-	        padding : 0
-	    });
-	    
-	    return false;
-	    
-	});
-
-$(".upcoming").click(function() {
-	    
-	    $.fancybox.open([
-	        {
-	            href : 'img/upcoming1.png',                
-	           
-	        }
-	       
-	    ], {
-	        padding : 0
-	    });
-	    
-	    return false;
-	    
-	});
-
-
-	
-</script>
-          <script>
-		$(document).ready(function(){
-				$('#nav').mobileMenu();
-		});
-	</script> 
+          
+         
     
   </body>
 </html>

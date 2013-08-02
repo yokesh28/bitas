@@ -6,3 +6,7 @@
 [Fri Aug 02 17:38:49 2013] [error] [client 127.0.0.1] File does not exist: /var/www/vitas/favicon.ico
 [Fri Aug 02 17:39:06 2013] [error] [client 127.0.0.1] File does not exist: /var/www/vitas/themes, referer: http://vitas.com/version2/index.php/site/index
 [Fri Aug 02 17:43:02 2013] [error] [client 127.0.0.1] File does not exist: /var/www/vitas/themes, referer: http://vitas.com/version2/index.php/site/about
+[Fri Aug 02 17:53:58 2013] [error] [client 127.0.0.1] File does not exist: /var/www/vitas/favicon.ico
+[Fri Aug 02 18:06:36 2013] [error] [client 127.0.0.1] File does not exist: /var/www/vitas/themes, referer: http://vitas.com/version2/index.php/site/index
+[Fri Aug 02 18:08:04 2013] [error] [client 127.0.0.1] File does not exist: /var/www/vitas/themes, referer: http://vitas.com/version2/index.php/site/index
+[Fri Aug 02 18:09:39 2013] [error] [client 127.0.0.1] File does not exist: /var/www/vitas/themes, referer: http://vitas.com/version2/index.php/site/index
