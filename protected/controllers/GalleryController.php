@@ -125,6 +125,7 @@ class GalleryController extends Controller
 						'dir' => 'thumbs',
 						'prefix' => 'asdf_',
 				);
+				
 				$filename=time().$model->image;
 				$model->image->saveAs('img/'.$filename);
 				$model->image=$filename;
