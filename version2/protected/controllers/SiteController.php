@@ -8,16 +8,16 @@ class SiteController extends FrontController
 	public function actions()
 	{
 		return array(
-			// captcha action renders the CAPTCHA image displayed on the contact page
-			'captcha'=>array(
-				'class'=>'CCaptchaAction',
-				'backColor'=>0xFFFFFF,
-			),
-			// page action renders "static" pages stored under 'protected/views/site/pages'
-			// They can be accessed via: index.php?r=site/page&view=FileName
-			'page'=>array(
-				'class'=>'CViewAction',
-			),
+				// captcha action renders the CAPTCHA image displayed on the contact page
+				'captcha'=>array(
+						'class'=>'CCaptchaAction',
+						'backColor'=>0xFFFFFF,
+				),
+				// page action renders "static" pages stored under 'protected/views/site/pages'
+				// They can be accessed via: index.php?r=site/page&view=FileName
+				'page'=>array(
+						'class'=>'CViewAction',
+				),
 		);
 	}
 
@@ -29,45 +29,45 @@ class SiteController extends FrontController
 	{
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
-		
-		
+
+
 		$this->render('index');
 	}
-	
+
 	/*project*/
-	
+
 	public function actionProject()
 	{
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
-	
-	
+
+
 		$this->render('project');
 	}
-	
+
 	public function actionAbout()
 	{
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
-	
-	
+
+
 		$this->render('about');
 	}
 	public function actionGallery()
 	{
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
-	
-	
-		$this->render('gallery');
+		$model=Gallery::model()->findAll();
+
+		$this->render('gallery',array('model'=>$model));
 	}
-	
+
 	public function actionMedia()
 	{
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
-	
-	
+
+
 		$this->render('media');
 	}
 
@@ -75,8 +75,8 @@ class SiteController extends FrontController
 	{
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
-	
-	
+
+
 		$this->render('contact');
 	}
 	/**
@@ -96,7 +96,7 @@ class SiteController extends FrontController
 	/**
 	 * Displays the contact page
 	 */
-	
 
-	
+
+
 }
