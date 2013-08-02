@@ -4,3 +4,5 @@
 /.project
 .settings/
 .buildpath
+/assets
+/protected/runtime
