@@ -121,21 +121,22 @@
 					</p>
 
 				</div>
+				
 
 				<div class="nav-collapse collapse row-fluid"
 					style="position: relative;">
 					<ul id="nav" class="nav span10">
-						<li class="span2"><a href="index.php">Home</a>
+						<li class="span2"><a href="<?php echo Yii::app()->createAbsoluteUrl('site/index')?>">Home</a>
 						</li>
-						<li class="span2"><a href="project.php">Project</a>
+						<li class="span2"><a href="<?php echo Yii::app()->createAbsoluteUrl('site/project')?>">Project</a>
 						</li>
-						<li class="span2"><a href="about.php">About us</a>
+						<li class="span2"><a href="<?php echo Yii::app()->createAbsoluteUrl('site/about')?>">About us</a>
 						</li>
-						<li class="span2"><a href="gallery.php">Gallery</a>
+						<li class="span2"><a href="<?php echo Yii::app()->createAbsoluteUrl('site/gallery')?>">Gallery</a>
 						</li>
-						<li class="span2"><a href="media.php">Media</a>
+						<li class="span2"><a href="<?php echo Yii::app()->createAbsoluteUrl('site/media')?>">Media</a>
 						</li>
-						<li class="span2"><a href="contact.php">Contact</a>
+						<li class="span2"><a href="<?php echo Yii::app()->createAbsoluteUrl('site/contact')?>">Contact</a>
 						</li>
 					</ul>
 				</div>

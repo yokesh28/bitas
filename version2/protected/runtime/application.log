@@ -9,3 +9,21 @@ Stack trace:
 REQUEST_URI=/vitas/version2/
 in /var/www/vitas/version2/protected/controllers/SiteController.php (4)
 in /var/www/vitas/version2/index.php (13)
+2013/08/02 16:07:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "project".' in /var/www/vitas/version2/library/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/vitas/version2/library/framework/web/CWebApplication.php(141): CWebApplication->runController('project')
+#1 /var/www/vitas/version2/library/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/vitas/version2/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vitas/version2/index.php/project
+HTTP_REFERER=http://localhost/vitas/version2/
+---
+2013/08/02 16:08:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index".' in /var/www/vitas/version2/library/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/vitas/version2/library/framework/web/CWebApplication.php(141): CWebApplication->runController('index')
+#1 /var/www/vitas/version2/library/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/vitas/version2/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vitas/version2/index.php/index
+HTTP_REFERER=http://localhost/vitas/version2/index.php/project
+---
