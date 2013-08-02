@@ -62,10 +62,10 @@ return array(
  * 
  */
 'db'=>array(
-		'connectionString' => 'mysql:host=localhost;dbname=vitas',
+		'connectionString' => 'mysql:host=localhost;dbname=shill_vitas',
 		'emulatePrepare' => true,
-		'username' => 'root',
-		'password' => 'password',
+		'username' => 'shill_vitas',
+		'password' => 'vitas123',
 		'charset' => 'utf8',
 ),
 /*
