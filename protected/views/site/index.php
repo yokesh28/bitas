@@ -35,7 +35,7 @@ $this->pageTitle=Yii::app()->name;
 <!-- inner part -->
 
 <div class="container" style="margin-bottom: 30px;">
-	<div class="row">
+	<div class="row-fluid">
 		<div class="span6 welcome-vitas">
 
 			<h2>WELCOME TO VITAS</h2>
@@ -53,20 +53,20 @@ $this->pageTitle=Yii::app()->name;
 		</div>
 
 		<div class="span6 welcome-vitas ">
-			<div class="span2 proj">
+			<div class="span5 proj">
 
-				<a class="ongoing" rel=""
+				<a class="ongoing " rel=""
 					href="<?php echo Yii::app()->createAbsoluteUrl('site/gallery')?>"><img
 					src="<?php echo Yii::app()->theme->baseUrl;?>/img/hproject2.png"
-					class="img-col" /> </a>
+					class="img-col span10" /> </a>
 				<div class="s-spring">
-				<a>SPRING GARDEN</a>
+					<a>SPRING GARDEN</a>
 				</div>
 
 			</div>
 
 
-			<div class="span3 proj1">
+			<div class="span7 proj1">
 
 				<p>Our current projects include independent villas in Vadavalli.
 					These villas are designed for comfort and are spacious. With a
