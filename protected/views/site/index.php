@@ -40,41 +40,43 @@ $this->pageTitle=Yii::app()->name;
 
 			<h2>WELCOME TO VITAS</h2>
 			<hr>
-			<p>VITAS is a real estate company specialised in selling plots and independent villas in and 
-
-around Coimbatore.  We are a recognised company having established ourselves firmly in the real 
-
-estate market. VITAS sells approved sites and houses at affordable prices. <br><br>
-
-Building relationships and acquiring the trust of our customers is the reason why we have 
-
-come this far. Planning to buy a plot or a villa, get in touch with the VITAS team and let us help you 
-
-out!.</p>
+			<p>
+				VITAS is a real estate company specialised in selling plots and
+				independent villas in and around Coimbatore. We are a recognised
+				company having established ourselves firmly in the real estate
+				market. VITAS sells approved sites and houses at affordable prices.
+				<br> <br> Building relationships and acquiring the trust of our
+				customers is the reason why we have come this far. Planning to buy a
+				plot or a villa, get in touch with the VITAS team and let us help
+				you out!.
+			</p>
 		</div>
 
-<div class="span6 welcome-vitas1 ">
-		<div class="span2 proj">
+		<div class="span6 welcome-vitas ">
+			<div class="span2 proj">
 
-			<a class="ongoing" rel=""
-				href="<?php echo Yii::app()->createAbsoluteUrl('site/gallery')?>"><img
-				src="<?php echo Yii::app()->theme->baseUrl;?>/img/proj.png"  />
-			</a>
+				<a class="ongoing" rel=""
+					href="<?php echo Yii::app()->createAbsoluteUrl('site/gallery')?>"><img
+					src="<?php echo Yii::app()->theme->baseUrl;?>/img/hproject2.png"
+					class="img-col" /> </a>
+				<div class="s-spring">
+				<a>SPRING GARDEN</a>
+				</div>
+
+			</div>
 
 
-		</div>
+			<div class="span3 proj1">
 
+				<p>Our current projects include independent villas in Vadavalli.
+					These villas are designed for comfort and are spacious. With a
+					prominent location and facilities available nearby, it’s the right
 
-		<div class="span3 proj1">
-			
-<p>Our current projects include independent villas in Vadavalli. These villas are designed for 
+					place to live in! Also, we sell approved plots in Ondipudur at
+					reasonable prices.</p>
 
-comfort and are spacious. With a prominent location and facilities available nearby, it’s the right 
+			</div>
 
-place to live in!  Also, we sell approved plots in Ondipudur at reasonable prices.</p>
-
-		</div>
-		
 		</div>
 	</div>
 
@@ -90,9 +92,9 @@ place to live in!  Also, we sell approved plots in Ondipudur at reasonable price
 
 <script
 	src="<?php echo Yii::app()->theme->baseUrl;?>/js/scripts.js"></script>
-	
-	
-	 <script type="text/javascript">
+
+
+<script type="text/javascript">
 	$(document).ready(function() {
 		$(".fancybox").fancybox();
 	});
@@ -120,8 +122,8 @@ place to live in!  Also, we sell approved plots in Ondipudur at reasonable price
 
 	
 </script>
-          <script>
+<script>
 		$(document).ready(function(){
 				$('#nav').mobileMenu();
 		});
-	</script> 
+	</script>

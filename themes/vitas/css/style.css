@@ -107,7 +107,9 @@ ul#nav>li:last-child {
 /*home content*/
 .welcome-vitas {
 	background: #9F9D91;
+	height: 232px;
 }
+
 
 .welcome-vitas1{
 background:#C0DA6C;
@@ -116,17 +118,54 @@ border-radius: 5px;
 }
 
 .proj{
-	
-	margin-top: 8px;
+	position:relative;
+	margin-top: 32px;
 }
 
+
 .proj1{
-margin-top: 20px;
+margin-top: 28px;
+margin-left: 50px;
 }
+
+.proj1 p{
+	text-align: justify;
+margin: 20px;
+color: white;
+	
+}
+.img-col{
+	
+	border: 7px #C0DA6C solid;
+}
+.s-spring{
+	
+	background: black;
+bottom: 30px;
+width: 120px;
+position: absolute;
+padding: 10px;
+left: 37px;
+opacity: 0.7;
+
+}
+
+
+
+
+
+
+.s-spring a{
+	color: white;
+	font-size: 13px;
+	text-decoration: none;
+cursor: pointer;
+}
+
 
 .welcome-vitas p {
 	text-align: justify;
-	margin: 25px;
+	margin: 15px;
 	color: white;
 }
 
@@ -330,7 +369,7 @@ border-radius: 5px;
 }
 .pr-img1{
 	
-	margin-top: 10px;
+	padding: 20px 5px;
 }
 .pr-img p{
 	margin-top: 30px;
@@ -340,11 +379,24 @@ text-align: left;
 .project_cont a{
 	
 	float: left;
+	text-decoration: none;
+	cursor: pointer;
+	color: white;
 }
 .project_cont a  img{
-	width: 159px;
-height: 158px;
-	margin-top: 10px;
+	
+	margin: 0px;
+border: 7px white solid;
+}
+
+.s-spring1{
+background: #30362A ;
+bottom: 46px;
+width: 120px;
+position: absolute;
+padding: 10px;
+left: 72px;
+opacity: 0.9;
 }
 
 .project_cont1 {

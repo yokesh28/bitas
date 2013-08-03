@@ -13,8 +13,12 @@ $this->pageTitle=Yii::app()->name;
 				<div class="span2 pr-img1">
 					<a class="ongoingproject" rel="group"
 						href="<?php echo Yii::app()->createAbsoluteUrl('site/gallery')?>"><img
-						src="<?php echo Yii::app()->theme->baseUrl;?>/img/proj.png" alt="" />
+						src="<?php echo Yii::app()->theme->baseUrl;?>/img/hproject2.png" alt="" />
 					</a>
+					
+					<div class="s-spring1">
+				<a>SPRING GARDEN</a>
+				</div>
 				</div>
 
 				<div class="span3 pr-img">
