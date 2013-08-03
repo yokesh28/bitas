@@ -248,7 +248,7 @@
 					<ul class="copyright-menu">
 						<li><a href="#">Terms &amp; Conditions</a></li>
 						<li><a href="#">Privacy Policy</a></li>
-
+						<li>Designed by <a href="http://s-creative.me">S-Creative</a></li>
 					</ul>
 					<!--copyright menu ends-->
 

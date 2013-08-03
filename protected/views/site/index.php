@@ -53,9 +53,9 @@ $this->pageTitle=Yii::app()->name;
 		</div>
 
 		<div class="span6 welcome-vitas ">
-			<div class="span6 ">
+			<div class="span6 " onclick="location.href='<?php echo $this->createAbsoluteUrl('gallery')?>'">
 
-				<span class="ongoing span8 proj" 
+				<span class="ongoing span8 proj"  onclick="location.href='<?php echo $this->createAbsoluteUrl('gallery')?>'"
 					><img
 					src="<?php echo Yii::app()->theme->baseUrl;?>/img/hproject2.png"
 					class="img-col  " />

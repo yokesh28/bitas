@@ -18,8 +18,14 @@ body {
 /*navigation*/
 
 
+.pr-img{
+padding: 30px 0px;
+text-align: justify;
 
-
+}
+.project_cont>div{
+margin: 12px !important;
+}
 	
 	
 .img-thumbnail{
