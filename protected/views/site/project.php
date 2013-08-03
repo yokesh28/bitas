@@ -73,7 +73,7 @@ estate market. VITAS sells approved sites and houses at affordable prices.</p>
                       
                       </div>-->
 
-		<!-- </div>-->
+		 </div>-->
 
 	</div>
 
