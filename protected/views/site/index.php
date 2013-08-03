@@ -67,11 +67,11 @@ out!.</p>
 
 		<div class="span3 proj1">
 			
-<p>VITAS is a real estate company specialised in selling plots and independent villas in and 
+<p>Our current projects include independent villas in Vadavalli. These villas are designed for 
 
-around Coimbatore.  We are a recognised company having established ourselves firmly in the real 
+comfort and are spacious. With a prominent location and facilities available nearby, it’s the right 
 
-estate market. VITAS sells approved sites and houses at affordable prices.</p>
+place to live in!  Also, we sell approved plots in Ondipudur at reasonable prices.</p>
 
 		</div>
 		
