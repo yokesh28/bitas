@@ -110,6 +110,13 @@ ul#nav>li:last-child {
 	min-height: 242px !important;
 }
 
+.proj b{
+position:absolute;
+bottom: 68px;
+width: 120px;
+right: -44px;
+background: black;
+padding: 10px;}
 
 .welcome-vitas1{
 background:#C0DA6C;

@@ -53,15 +53,16 @@ $this->pageTitle=Yii::app()->name;
 		</div>
 
 		<div class="span6 welcome-vitas ">
-			<div class="span6 proj">
+			<div class="span6 ">
 
-				<span class="ongoing span8" 
+				<span class="ongoing span8 proj" 
 					><img
 					src="<?php echo Yii::app()->theme->baseUrl;?>/img/hproject2.png"
-					class="img-col " /> </span>
-				<div class="s-spring">
-					<a>SPRING GARDEN</a>
-				</div>
+					class="img-col  " />
+					
+					<b>SPRING GARDEN</b>
+					 </span>
+				
 
 			</div>
 
