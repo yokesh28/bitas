@@ -58,7 +58,7 @@ $this->pageTitle=Yii::app()->name;
 				<a class="ongoing " rel=""
 					href="<?php echo Yii::app()->createAbsoluteUrl('site/gallery')?>"><img
 					src="<?php echo Yii::app()->theme->baseUrl;?>/img/hproject2.png"
-					class="img-col span10" /> </a>
+					class="img-col " width ="190" height="170"/> </a>
 				<div class="s-spring">
 					<a>SPRING GARDEN</a>
 				</div>

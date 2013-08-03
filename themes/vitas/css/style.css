@@ -107,7 +107,7 @@ ul#nav>li:last-child {
 /*home content*/
 .welcome-vitas {
 	background: #9F9D91;
-	height: 232px;
+	min-height: 242px !important;
 }
 
 
