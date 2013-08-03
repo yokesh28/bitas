@@ -46,13 +46,13 @@ right: 74px;
 
 }
 .contact-hd p {
-	color: #B6B6B6;
+	color: #737373;
 	
 	
 	
 }
 .contact-hd a {
-	color: #B6B6B6;
+	color: #737373;
 	text-decoration: none;
 	font-size: 14px;
 }
@@ -459,6 +459,13 @@ float: right;
 width:250px;
 margin-bottom: -7px;
 	
+}
+
+/*media*/
+
+.advertisement img{
+	
+	width: 700px;
 }
 
 
