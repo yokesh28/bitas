@@ -126,7 +126,7 @@ $this->pageTitle=Yii::app()->name;
 		$(document).ready(function(){
 				$('#nav').mobileMenu();
 		});
-	</script>
+	
 		$('#nav').mobileMenu();
 		});
 	</script>
