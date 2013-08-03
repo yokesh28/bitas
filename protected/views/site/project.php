@@ -21,7 +21,7 @@ $this->pageTitle=Yii::app()->name;
 
 						<span class=" span10 proj" onclick="location.href='<?php echo $this->createAbsoluteUrl('gallery')?>'"><img
 							src="<?php echo Yii::app()->theme->baseUrl;?>/img/hproject2.png"
-							class="img-col  " /> <b class="span10" style="right:-7px;">SPRING GARDEN</b> </span>
+							class="img-col1  " /> <b class="span10" style="right:-7px;">SPRING GARDEN</b> </span>
 
 
 					</div>
