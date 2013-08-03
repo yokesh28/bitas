@@ -110,17 +110,26 @@ ul#nav>li:last-child {
 	min-height: 242px !important;
 }
 
+.welcome-vitas1 {
+	background: #C0DA6C;
+	min-height: 242px !important;
+}
+
+
 .proj b{
 position:absolute;
 bottom: 68px;
 width: 120px;
 right: -44px;
-background: black;
-padding: 10px;}
+background: url('../img/spring.png');
+padding: 10px;
+color: white;
+cursor: pointer;
+}
 
 .welcome-vitas1{
 background:#C0DA6C;
-margin-top: 30px;
+
 border-radius: 5px;
 }
 
@@ -149,17 +158,9 @@ color: white;
 	
 	border: 7px #C0DA6C solid;
 }
-.s-spring{
-	
-	background: url('');
-position: absolute;
-padding: 10px;
-right: 0;
-bottom: 32px;
-margin: 30px 2px;
 
-
-
+.img-col1 {
+border: 7px white solid;
 }
 
 
@@ -167,12 +168,6 @@ margin: 30px 2px;
 
 
 
-.s-spring a{
-	color: white;
-	font-size: 13px;
-	text-decoration: none;
-cursor: pointer;
-}
 
 
 .welcome-vitas p {
@@ -369,6 +364,18 @@ margin: 0px;
 
 
 /*project*/
+
+.pro-img{
+	
+	position: relative;
+}
+
+.pro-inner{
+	
+	position: absolute;
+	top: 288px;
+left: 130px;
+}
 
 .project_cont {
 	position: absolute;
@@ -693,7 +700,11 @@ left: 0px;
 	
 	}
 	
-	
+	.proj b{
+
+right: 123px;
+
+}
 	
 		
 	 }

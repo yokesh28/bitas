@@ -37,7 +37,7 @@ So the next time you want to buy a plot or an independent villa, think VITAS.</p
               
               <div class="row">      
        <div class="span6 project_vitas">
-        <a class="ongoing" rel="group" href="<?php echo Yii::app()->theme->baseUrl;?>/img/ongoing1.png"><img src="<?php echo Yii::app()->theme->baseUrl;?>/img/project1.png" alt="" /></a>
+        <a class="" rel="group" href="<?php echo Yii::app()->theme->baseUrl;?>/img/ongoing1.png"><img src="<?php echo Yii::app()->theme->baseUrl;?>/img/project1.png" alt="" /></a>
         
                   
           </div>   

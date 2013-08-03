@@ -4,9 +4,42 @@
 $this->pageTitle=Yii::app()->name;
 ?>
 <div class="container">
-	<div class="row">
+	<div class="row-fluid pro-img">
+	<img class="visible-desktop" alt=""
+				src="<?php echo Yii::app()->theme->baseUrl;?>/img/project.png">
+	
+	
 
-		<div class="span12 project_bg">
+		<div class="span6 welcome-vitas1 pro-inner">
+			<div class="span6 ">
+
+				<span class="ongoing span8 proj" 
+					><img
+					src="<?php echo Yii::app()->theme->baseUrl;?>/img/hproject2.png"
+					class="img-col1  " />
+					
+					<b>SPRING GARDEN</b>
+					 </span>
+				
+
+			</div>
+
+
+			<div class="span6 proj1">
+
+				<p>Our current projects include independent villas in Vadavalli.
+					These villas are designed for comfort and are spacious. With a
+					prominent location and facilities available nearby, it’s the right
+
+					place to live in! Also, we sell approved plots in Ondipudur at
+					reasonable prices.</p>
+
+			</div>
+
+		</div>
+	
+
+		<!--  <div class="span12 project_bg">
 			<img class="visible-desktop" alt=""
 				src="<?php echo Yii::app()->theme->baseUrl;?>/img/project.png">
 			<div class=" span6 project_cont">
@@ -27,10 +60,10 @@ $this->pageTitle=Yii::app()->name;
 comfort and are spacious. With a prominent location and facilities available nearby, it’s the right 
 
 place to live in!  Also, we sell approved plots in Ondipudur at reasonable prices.</p>
-				</div>
+				</div>-->
 
 
-			</div>
+		<!-- </div>-->
 			<!--   <div class="span3 project_cont1">
                       <p>VITAS is a real estate company specialised in selling plots and independent villas in and 
 
@@ -40,7 +73,7 @@ estate market. VITAS sells approved sites and houses at affordable prices.</p>
                       
                       </div>-->
 
-		</div>
+		<!-- </div>-->
 
 	</div>
 
