@@ -236,11 +236,11 @@
 						</li>
 						<li><a href="<?php echo Yii::app()->createAbsoluteUrl('site/about')?>">About us</a>
 						</li>
-						<li><a href="<?php echo Yii::app()->createAbsoluteUrl('site/gallery')?>">Gallery</a>
+						<!--  <li><a href="<?php echo Yii::app()->createAbsoluteUrl('site/gallery')?>">Gallery</a>
+						</li>-->
+						<li><a href="<?php echo Yii::app()->createAbsoluteUrl('site/media')?>">Media</a>
 						</li>
-						<li><a href="<?php echo Yii::app()->createAbsoluteUrl('site/media')?>">Media Center</a>
-						</li>
-						<li><a href="<?php echo Yii::app()->createAbsoluteUrl('site/contact')?>">Contact Us</a>
+						<li><a href="<?php echo Yii::app()->createAbsoluteUrl('site/contact')?>">Contact</a>
 						</li>
 					</ul>
 
